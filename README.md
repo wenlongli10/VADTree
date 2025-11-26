@@ -32,9 +32,10 @@ state-of-the-art performance in training-free settings while drastically reducin
 the number of sampled video segments. 
 
 # Progress
-- [x] Code and experiment results release \(`2025-11-27`\)
-- [x] Paper accepted at NeurIPS 2025 \(`2025-09-19`\)
-
+- [ ] More experiment results will be added soon.
+- ✅ Code and experiment results release (`2025-11-27`)
+- ✅ Paper accepted at NeurIPS 2025 (`2025-09-19`)
+  
 # Datasets preparation
 The groundtruth for The UCF-Crime, XD-Violence (from [LAVAD](https://github.com/lucazanella/lavad)) and MSAD datasets is already included in the **dataset_info** folder and no additional download is required.  
 Only step 1,3,5 requires video data to run.   
@@ -59,17 +60,17 @@ Steps 1, 3, and 4 require configuring the corresponding environments and model w
 You can follow the instructions in [EfficientGEBD](https://github.com/Ziwei-Zheng/EfficientGEBD).
 
 ### 3. Install LLaVA-Video-7B-Qwen2 environment and prepare pretrain model weight
-You can follow the instructions in [LLaVA-Video-7B-Qwen2](https://github.com/LLaVA-VL/LLaVA-NeXT) to install environment.  
-LLaVA-Video-7B-Qwen2 weight:[huggingface](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)
+You can follow the instructions in [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) to install environment.  
+LLaVA-Video-7B-Qwen2 weight: [huggingface](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)
 
 ### 4. Prepare DeepSeek-R1-Distill-Qwen-14B pretrain model weight
 You can use LLaVA-Video-7B-Qwen2's environment to run DeepSeek-R1-Distill-Qwen-14B.  
-DeepSeek-R1-Distill-Qwen-14B weight:[huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B)
+DeepSeek-R1-Distill-Qwen-14B weight: [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B)
 
 # Quick Start (Example)
 Here we provide a quick start guide to run VADTree on UCF-Crime dataset.
 ### 1. GEBD boundary extraction
-You need to first configure the project environment of EfficientGEBD and the model weight file: GEBD_MODEL_WEIGHT
+You need to first configure the project environment of EfficientGEBD and the model weight file: GEBD_MODEL_WEIGHT and MODEL_CONFIG
 ```bash
 conda activate EfficientGEBD
 cd EfficientGEBD
@@ -202,7 +203,7 @@ VADTree final Output:
          └── ense_refine_maxf64_ucf_prior_q_Here is a .json # Correlation scores and eval results
 ```
 
-## Citation
+# Citation
 
 Please consider citing our paper in your publications if the project helps your research.
 ```
@@ -214,6 +215,6 @@ Please consider citing our paper in your publications if the project helps your 
 }
 ```
 
-## Acknowledgements
+# Acknowledgements
 
 This repository builds upon the [LAVAD](https://github.com/lucazanella/lavad). Thanks to the authors!
