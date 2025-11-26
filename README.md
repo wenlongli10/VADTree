@@ -31,11 +31,11 @@ experiments on three challenging datasets demonstrate that VADTree achieves
 state-of-the-art performance in training-free settings while drastically reducing
 the number of sampled video segments. 
 
-## Progress
+# Progress
 - [x] Code and experiment results release \(`2025-11-27`\)
 - [x] Paper accepted at NeurIPS 2025 \(`2025-09-19`\)
 
-## Datasets preparation
+# Datasets preparation
 The groundtruth for The UCF-Crime, XD-Violence (from [LAVAD](https://github.com/lucazanella/lavad)) and MSAD datasets is already included in the **dataset_info** folder and no additional download is required.  
 Only step 1,3,5 requires video data to run.   
 You can download the video data from the following official websites:
@@ -43,7 +43,7 @@ You can download the video data from the following official websites:
 - XD-Violence: [link](https://roc-ng.github.io/XD-Violence/)
 - MSAD: [link](https://msad-dataset.github.io/)
 
-## Install
+# Install
 ### 1. Clone the repository and Install VADTree environment
 ```bash
 git clone https://github.com/wenlongli10/VADTree.git
@@ -59,14 +59,14 @@ Steps 1, 3, and 4 require configuring the corresponding environments and model w
 You can follow the instructions in [EfficientGEBD](https://github.com/Ziwei-Zheng/EfficientGEBD).
 
 ### 3. Install LLaVA-Video-7B-Qwen2 environment and prepare pretrain model weight
-You can follow the instructions in [LLaVA-Video-7B-Qwen2](https://github.com/LLaVA-VL/LLaVA-NeXT) to install environment.
-LLaVA-Video-7B-Qwen2 weight: [huggingface](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)
+You can follow the instructions in [LLaVA-Video-7B-Qwen2](https://github.com/LLaVA-VL/LLaVA-NeXT) to install environment.  
+LLaVA-Video-7B-Qwen2 weight:[huggingface](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)
 
 ### 4. Prepare DeepSeek-R1-Distill-Qwen-14B pretrain model weight
-You can use LLaVA-Video-7B-Qwen2's environment to run DeepSeek-R1-Distill-Qwen-14B.
-DeepSeek-R1-Distill-Qwen-14B weight: [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B)
+You can use LLaVA-Video-7B-Qwen2's environment to run DeepSeek-R1-Distill-Qwen-14B.  
+DeepSeek-R1-Distill-Qwen-14B weight:[huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B)
 
-## Quick Start (Example)
+# Quick Start (Example)
 Here we provide a quick start guide to run VADTree on UCF-Crime dataset.
 ### 1. GEBD boundary extraction
 You need to first configure the project environment of EfficientGEBD and the model weight file: GEBD_MODEL_WEIGHT
