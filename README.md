@@ -99,7 +99,7 @@ python HGTree_generation.py \
 
 Output:
 ```
-  VADTree/result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.
+  VADTree/result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4
     ├── pred.json                 # Original per-frame scores (copy)
     ├── dfs_coarse_scenes.json    # Coarse-grained nodes
     ├── dfs_fine_scenes.json      # Fine-grained nodes
@@ -206,7 +206,7 @@ VADTree final Output:
 # Citation
 
 Please consider citing our paper in your publications if the project helps your research.
-```
+```bibtex
 @inproceedings{li2025vadtree,
   title={VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity-Aware Tree},
   author={Li, Wenlong and Xu, Yifei and Rao, Yuan and Wang, Zhenhua and Deng, Shuiguang},
