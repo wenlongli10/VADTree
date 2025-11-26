@@ -1,0 +1,17 @@
+MODEL:
+  NAME: 'E2EModel'
+  BACKBONE:
+    NAME: 'csn'
+#  SYNC_BN: False
+INPUT:
+  END_TO_END: True
+  SEQUENCE_LENGTH: 100
+SOLVER:
+  BATCH_SIZE: 3
+  LR: 1e-2
+  OPTIMIZER: 'SGD'
+  MAX_EPOCHS: 100
+  MILESTONES: [6, 8]
+TEST:
+  THRESHOLD: 0.3
+OUTPUT_DIR: 'output/baseline_end_to_end_csn'

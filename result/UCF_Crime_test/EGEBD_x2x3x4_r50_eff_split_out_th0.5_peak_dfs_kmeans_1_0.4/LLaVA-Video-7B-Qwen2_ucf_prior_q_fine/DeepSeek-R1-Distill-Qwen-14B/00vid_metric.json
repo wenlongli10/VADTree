@@ -1,0 +1,1832 @@
+{
+    "vid_metric": {
+        "Abuse028_x264": {
+            "roc_auc": 0.7498,
+            "pr_auc": 0.4725,
+            "1_mean": 0.1605,
+            "0_mean": 0.0647
+        },
+        "Abuse030_x264": {
+            "roc_auc": 0.2466,
+            "pr_auc": 0.0278,
+            "1_mean": 0.0,
+            "0_mean": 0.1012
+        },
+        "Arrest001_x264": {
+            "roc_auc": 0.6223,
+            "pr_auc": 0.2165,
+            "1_mean": 0.3731,
+            "0_mean": 0.289
+        },
+        "Arrest007_x264": {
+            "roc_auc": 0.7091,
+            "pr_auc": 0.378,
+            "1_mean": 0.2371,
+            "0_mean": 0.1002
+        },
+        "Arrest024_x264": {
+            "roc_auc": 0.504,
+            "pr_auc": 0.6251,
+            "1_mean": 0.3672,
+            "0_mean": 0.3715
+        },
+        "Arrest030_x264": {
+            "roc_auc": 0.4878,
+            "pr_auc": 0.1618,
+            "1_mean": 0.2417,
+            "0_mean": 0.2886
+        },
+        "Arrest039_x264": {
+            "roc_auc": 0.6141,
+            "pr_auc": 0.33,
+            "1_mean": 0.1704,
+            "0_mean": 0.073
+        },
+        "Arson007_x264": {
+            "roc_auc": 0.3819,
+            "pr_auc": 0.5432,
+            "1_mean": 0.0702,
+            "0_mean": 0.0862
+        },
+        "Arson009_x264": {
+            "roc_auc": 0.8454,
+            "pr_auc": 0.5659,
+            "1_mean": 0.4,
+            "0_mean": 0.1037
+        },
+        "Arson010_x264": {
+            "roc_auc": 0.6937,
+            "pr_auc": 0.1403,
+            "1_mean": 0.3208,
+            "0_mean": 0.2203
+        },
+        "Arson011_x264": {
+            "roc_auc": 0.7083,
+            "pr_auc": 0.8566,
+            "1_mean": 0.1082,
+            "0_mean": 0.0286
+        },
+        "Arson016_x264": {
+            "roc_auc": 0.7367,
+            "pr_auc": 0.7749,
+            "1_mean": 0.5623,
+            "0_mean": 0.1896
+        },
+        "Arson018_x264": {
+            "roc_auc": 0.5725,
+            "pr_auc": 0.7406,
+            "1_mean": 0.2725,
+            "0_mean": 0.2
+        },
+        "Arson022_x264": {
+            "roc_auc": 0.3773,
+            "pr_auc": 0.029,
+            "1_mean": 0.0,
+            "0_mean": 0.0357
+        },
+        "Arson035_x264": {
+            "roc_auc": 0.8536,
+            "pr_auc": 0.7802,
+            "1_mean": 0.6924,
+            "0_mean": 0.3647
+        },
+        "Arson041_x264": {
+            "roc_auc": 0.7407,
+            "pr_auc": 0.5591,
+            "1_mean": 0.2891,
+            "0_mean": 0.1356
+        },
+        "Assault006_x264": {
+            "roc_auc": 0.9476,
+            "pr_auc": 0.9916,
+            "1_mean": 0.5681,
+            "0_mean": 0.0415
+        },
+        "Assault010_x264": {
+            "roc_auc": 0.6467,
+            "pr_auc": 0.2162,
+            "1_mean": 0.2389,
+            "0_mean": 0.0726
+        },
+        "Assault011_x264": {
+            "roc_auc": 0.9242,
+            "pr_auc": 0.7435,
+            "1_mean": 0.5261,
+            "0_mean": 0.1009
+        },
+        "Burglary005_x264": {
+            "roc_auc": 0.7934,
+            "pr_auc": 0.3425,
+            "1_mean": 0.1785,
+            "0_mean": 0.0157
+        },
+        "Burglary017_x264": {
+            "roc_auc": 0.3239,
+            "pr_auc": 0.1314,
+            "1_mean": 0.0579,
+            "0_mean": 0.2087
+        },
+        "Burglary018_x264": {
+            "roc_auc": 0.8418,
+            "pr_auc": 0.8761,
+            "1_mean": 0.7532,
+            "0_mean": 0.1511
+        },
+        "Burglary021_x264": {
+            "roc_auc": 0.2239,
+            "pr_auc": 0.3055,
+            "1_mean": 0.0383,
+            "0_mean": 0.2004
+        },
+        "Burglary024_x264": {
+            "roc_auc": 0.3593,
+            "pr_auc": 0.3514,
+            "1_mean": 0.0323,
+            "0_mean": 0.0528
+        },
+        "Burglary032_x264": {
+            "roc_auc": 0.7278,
+            "pr_auc": 0.4435,
+            "1_mean": 0.3368,
+            "0_mean": 0.1081
+        },
+        "Burglary033_x264": {
+            "roc_auc": 0.7377,
+            "pr_auc": 0.6125,
+            "1_mean": 0.1336,
+            "0_mean": 0.0146
+        },
+        "Burglary035_x264": {
+            "roc_auc": 0.639,
+            "pr_auc": 0.3122,
+            "1_mean": 0.261,
+            "0_mean": 0.2002
+        },
+        "Burglary037_x264": {
+            "roc_auc": 0.5304,
+            "pr_auc": 0.7965,
+            "1_mean": 0.0521,
+            "0_mean": 0.0193
+        },
+        "Burglary061_x264": {
+            "roc_auc": 0.551,
+            "pr_auc": 0.6259,
+            "1_mean": 0.0102,
+            "0_mean": 0.0
+        },
+        "Burglary076_x264": {
+            "roc_auc": 0.8889,
+            "pr_auc": 0.2746,
+            "1_mean": 0.2,
+            "0_mean": 0.044
+        },
+        "Burglary079_x264": {
+            "roc_auc": 0.9796,
+            "pr_auc": 0.9151,
+            "1_mean": 0.7088,
+            "0_mean": 0.1216
+        },
+        "Burglary092_x264": {
+            "roc_auc": 0.9144,
+            "pr_auc": 0.9392,
+            "1_mean": 0.1657,
+            "0_mean": 0.0
+        },
+        "Explosion002_x264": {
+            "roc_auc": 0.9665,
+            "pr_auc": 0.9284,
+            "1_mean": 0.8626,
+            "0_mean": 0.0876
+        },
+        "Explosion004_x264": {
+            "roc_auc": 0.5797,
+            "pr_auc": 0.0691,
+            "1_mean": 0.2583,
+            "0_mean": 0.2481
+        },
+        "Explosion007_x264": {
+            "roc_auc": 0.233,
+            "pr_auc": 0.0212,
+            "1_mean": 0.0,
+            "0_mean": 0.1557
+        },
+        "Explosion008_x264": {
+            "roc_auc": 0.8969,
+            "pr_auc": 0.742,
+            "1_mean": 0.8141,
+            "0_mean": 0.0997
+        },
+        "Explosion010_x264": {
+            "roc_auc": 0.4571,
+            "pr_auc": 0.2452,
+            "1_mean": 0.2224,
+            "0_mean": 0.3374
+        },
+        "Explosion011_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5481,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Explosion013_x264": {
+            "roc_auc": 0.9596,
+            "pr_auc": 0.8509,
+            "1_mean": 0.7641,
+            "0_mean": 0.1392
+        },
+        "Explosion016_x264": {
+            "roc_auc": 0.6185,
+            "pr_auc": 0.6696,
+            "1_mean": 0.8,
+            "0_mean": 0.6104
+        },
+        "Explosion017_x264": {
+            "roc_auc": 0.908,
+            "pr_auc": 0.815,
+            "1_mean": 0.5969,
+            "0_mean": 0.1129
+        },
+        "Explosion020_x264": {
+            "roc_auc": 0.6247,
+            "pr_auc": 0.1674,
+            "1_mean": 0.4517,
+            "0_mean": 0.3481
+        },
+        "Explosion021_x264": {
+            "roc_auc": 0.2462,
+            "pr_auc": 0.1018,
+            "1_mean": 0.0199,
+            "0_mean": 0.4486
+        },
+        "Explosion022_x264": {
+            "roc_auc": 0.9931,
+            "pr_auc": 0.9906,
+            "1_mean": 0.8607,
+            "0_mean": 0.043
+        },
+        "Explosion025_x264": {
+            "roc_auc": 0.9376,
+            "pr_auc": 0.9298,
+            "1_mean": 0.2739,
+            "0_mean": 0.0113
+        },
+        "Explosion027_x264": {
+            "roc_auc": 0.7528,
+            "pr_auc": 0.3811,
+            "1_mean": 0.2211,
+            "0_mean": 0.116
+        },
+        "Explosion028_x264": {
+            "roc_auc": 0.7052,
+            "pr_auc": 0.6787,
+            "1_mean": 0.9,
+            "0_mean": 0.5306
+        },
+        "Explosion029_x264": {
+            "roc_auc": 0.8802,
+            "pr_auc": 0.7606,
+            "1_mean": 0.6785,
+            "0_mean": 0.034
+        },
+        "Explosion033_x264": {
+            "roc_auc": 0.1824,
+            "pr_auc": 0.4962,
+            "1_mean": 0.3869,
+            "0_mean": 0.7468
+        },
+        "Explosion035_x264": {
+            "roc_auc": 0.6167,
+            "pr_auc": 0.0354,
+            "1_mean": 0.6416,
+            "0_mean": 0.4616
+        },
+        "Explosion036_x264": {
+            "roc_auc": 0.9294,
+            "pr_auc": 0.1,
+            "1_mean": 0.7744,
+            "0_mean": 0.2367
+        },
+        "Explosion039_x264": {
+            "roc_auc": 0.8119,
+            "pr_auc": 0.5784,
+            "1_mean": 0.589,
+            "0_mean": 0.09
+        },
+        "Explosion043_x264": {
+            "roc_auc": 0.4276,
+            "pr_auc": 0.0092,
+            "1_mean": 0.0,
+            "0_mean": 0.0678
+        },
+        "Fighting003_x264": {
+            "roc_auc": 0.7761,
+            "pr_auc": 0.8687,
+            "1_mean": 0.1381,
+            "0_mean": 0.0
+        },
+        "Fighting018_x264": {
+            "roc_auc": 0.6997,
+            "pr_auc": 0.6549,
+            "1_mean": 0.5507,
+            "0_mean": 0.3802
+        },
+        "Fighting033_x264": {
+            "roc_auc": 0.8322,
+            "pr_auc": 0.8243,
+            "1_mean": 0.7373,
+            "0_mean": 0.3457
+        },
+        "Fighting042_x264": {
+            "roc_auc": 0.7156,
+            "pr_auc": 0.4352,
+            "1_mean": 0.6389,
+            "0_mean": 0.309
+        },
+        "Fighting047_x264": {
+            "roc_auc": 0.7596,
+            "pr_auc": 0.7009,
+            "1_mean": 0.4926,
+            "0_mean": 0.2368
+        },
+        "RoadAccidents001_x264": {
+            "roc_auc": 0.4175,
+            "pr_auc": 0.3732,
+            "1_mean": 0.4692,
+            "0_mean": 0.5847
+        },
+        "RoadAccidents002_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5879,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "RoadAccidents004_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5643,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "RoadAccidents009_x264": {
+            "roc_auc": 0.5823,
+            "pr_auc": 0.5201,
+            "1_mean": 0.2,
+            "0_mean": 0.1671
+        },
+        "RoadAccidents010_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5388,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "RoadAccidents011_x264": {
+            "roc_auc": 0.4773,
+            "pr_auc": 0.0095,
+            "1_mean": 0.0,
+            "0_mean": 0.0091
+        },
+        "RoadAccidents012_x264": {
+            "roc_auc": 0.7972,
+            "pr_auc": 0.7421,
+            "1_mean": 0.6638,
+            "0_mean": 0.1884
+        },
+        "RoadAccidents016_x264": {
+            "roc_auc": 0.7616,
+            "pr_auc": 0.5834,
+            "1_mean": 0.8,
+            "0_mean": 0.3814
+        },
+        "RoadAccidents017_x264": {
+            "roc_auc": 0.9419,
+            "pr_auc": 0.8901,
+            "1_mean": 0.8,
+            "0_mean": 0.3233
+        },
+        "RoadAccidents019_x264": {
+            "roc_auc": 0.3904,
+            "pr_auc": 0.0575,
+            "1_mean": 0.0,
+            "0_mean": 0.0547
+        },
+        "RoadAccidents020_x264": {
+            "roc_auc": 0.7349,
+            "pr_auc": 0.0656,
+            "1_mean": 0.3,
+            "0_mean": 0.2712
+        },
+        "RoadAccidents021_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.6968,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "RoadAccidents022_x264": {
+            "roc_auc": 0.5374,
+            "pr_auc": 0.1112,
+            "1_mean": 0.5,
+            "0_mean": 0.3924
+        },
+        "RoadAccidents121_x264": {
+            "roc_auc": 0.9648,
+            "pr_auc": 0.664,
+            "1_mean": 0.8,
+            "0_mean": 0.218
+        },
+        "RoadAccidents122_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5471,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "RoadAccidents123_x264": {
+            "roc_auc": 0.5189,
+            "pr_auc": 0.5418,
+            "1_mean": 0.8,
+            "0_mean": 0.7697
+        },
+        "RoadAccidents124_x264": {
+            "roc_auc": 0.5609,
+            "pr_auc": 0.3665,
+            "1_mean": 0.3415,
+            "0_mean": 0.1438
+        },
+        "RoadAccidents125_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5313,
+            "1_mean": 0.8,
+            "0_mean": 0.8
+        },
+        "RoadAccidents127_x264": {
+            "roc_auc": 0.832,
+            "pr_auc": 0.7832,
+            "1_mean": 0.6128,
+            "0_mean": 0.0435
+        },
+        "RoadAccidents128_x264": {
+            "roc_auc": 0.7668,
+            "pr_auc": 0.6645,
+            "1_mean": 0.1865,
+            "0_mean": 0.0264
+        },
+        "RoadAccidents131_x264": {
+            "roc_auc": 0.9224,
+            "pr_auc": 0.6125,
+            "1_mean": 0.7607,
+            "0_mean": 0.0848
+        },
+        "RoadAccidents132_x264": {
+            "roc_auc": 0.5247,
+            "pr_auc": 0.5285,
+            "1_mean": 0.7,
+            "0_mean": 0.6654
+        },
+        "RoadAccidents133_x264": {
+            "roc_auc": 0.5624,
+            "pr_auc": 0.2161,
+            "1_mean": 0.4972,
+            "0_mean": 0.349
+        },
+        "Robbery048_x264": {
+            "roc_auc": 0.4037,
+            "pr_auc": 0.5441,
+            "1_mean": 0.2123,
+            "0_mean": 0.1879
+        },
+        "Robbery050_x264": {
+            "roc_auc": 0.6146,
+            "pr_auc": 0.8222,
+            "1_mean": 0.0495,
+            "0_mean": 0.0
+        },
+        "Robbery102_x264": {
+            "roc_auc": 0.8537,
+            "pr_auc": 0.8138,
+            "1_mean": 0.5667,
+            "0_mean": 0.0781
+        },
+        "Robbery106_x264": {
+            "roc_auc": 0.6752,
+            "pr_auc": 0.5738,
+            "1_mean": 0.2,
+            "0_mean": 0.1514
+        },
+        "Robbery137_x264": {
+            "roc_auc": 0.6856,
+            "pr_auc": 0.9443,
+            "1_mean": 0.2997,
+            "0_mean": 0.004
+        },
+        "Shooting002_x264": {
+            "roc_auc": 0.76,
+            "pr_auc": 0.5652,
+            "1_mean": 0.8,
+            "0_mean": 0.5669
+        },
+        "Shooting004_x264": {
+            "roc_auc": 0.7688,
+            "pr_auc": 0.277,
+            "1_mean": 0.3491,
+            "0_mean": 0.2112
+        },
+        "Shooting007_x264": {
+            "roc_auc": 0.5177,
+            "pr_auc": 0.2792,
+            "1_mean": 0.4686,
+            "0_mean": 0.4559
+        },
+        "Shooting008_x264": {
+            "roc_auc": 0.7356,
+            "pr_auc": 0.4128,
+            "1_mean": 0.366,
+            "0_mean": 0.1584
+        },
+        "Shooting010_x264": {
+            "roc_auc": 0.4265,
+            "pr_auc": 0.0314,
+            "1_mean": 0.0,
+            "0_mean": 0.0291
+        },
+        "Shooting011_x264": {
+            "roc_auc": 0.5105,
+            "pr_auc": 0.0613,
+            "1_mean": 0.228,
+            "0_mean": 0.315
+        },
+        "Shooting013_x264": {
+            "roc_auc": 0.7688,
+            "pr_auc": 0.4658,
+            "1_mean": 0.3523,
+            "0_mean": 0.0584
+        },
+        "Shooting015_x264": {
+            "roc_auc": 0.8901,
+            "pr_auc": 0.9102,
+            "1_mean": 0.4971,
+            "0_mean": 0.107
+        },
+        "Shooting018_x264": {
+            "roc_auc": 0.363,
+            "pr_auc": 0.0613,
+            "1_mean": 0.1428,
+            "0_mean": 0.3209
+        },
+        "Shooting019_x264": {
+            "roc_auc": 0.9062,
+            "pr_auc": 0.6335,
+            "1_mean": 0.6514,
+            "0_mean": 0.1159
+        },
+        "Shooting021_x264": {
+            "roc_auc": 0.9771,
+            "pr_auc": 0.908,
+            "1_mean": 0.8695,
+            "0_mean": 0.2069
+        },
+        "Shooting022_x264": {
+            "roc_auc": 0.7931,
+            "pr_auc": 0.2536,
+            "1_mean": 0.1729,
+            "0_mean": 0.051
+        },
+        "Shooting024_x264": {
+            "roc_auc": 0.4749,
+            "pr_auc": 0.3036,
+            "1_mean": 0.0737,
+            "0_mean": 0.0377
+        },
+        "Shooting026_x264": {
+            "roc_auc": 0.5395,
+            "pr_auc": 0.4588,
+            "1_mean": 0.3325,
+            "0_mean": 0.271
+        },
+        "Shooting028_x264": {
+            "roc_auc": 0.5527,
+            "pr_auc": 0.1403,
+            "1_mean": 0.1993,
+            "0_mean": 0.263
+        },
+        "Shooting032_x264": {
+            "roc_auc": 0.9041,
+            "pr_auc": 0.1744,
+            "1_mean": 0.4166,
+            "0_mean": 0.0894
+        },
+        "Shooting033_x264": {
+            "roc_auc": 0.7031,
+            "pr_auc": 0.5761,
+            "1_mean": 0.4726,
+            "0_mean": 0.3038
+        },
+        "Shooting034_x264": {
+            "roc_auc": 0.7379,
+            "pr_auc": 0.0998,
+            "1_mean": 0.2,
+            "0_mean": 0.0801
+        },
+        "Shooting037_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.6984,
+            "1_mean": 0.3,
+            "0_mean": 0.3
+        },
+        "Shooting043_x264": {
+            "roc_auc": 0.5599,
+            "pr_auc": 0.2287,
+            "1_mean": 0.2811,
+            "0_mean": 0.2007
+        },
+        "Shooting046_x264": {
+            "roc_auc": 0.8919,
+            "pr_auc": 0.3326,
+            "1_mean": 0.5773,
+            "0_mean": 0.0954
+        },
+        "Shooting047_x264": {
+            "roc_auc": 0.6232,
+            "pr_auc": 0.5893,
+            "1_mean": 0.5218,
+            "0_mean": 0.3007
+        },
+        "Shooting048_x264": {
+            "roc_auc": 0.8254,
+            "pr_auc": 0.8445,
+            "1_mean": 0.3202,
+            "0_mean": 0.0
+        },
+        "Shoplifting001_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5519,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting004_x264": {
+            "roc_auc": 0.5328,
+            "pr_auc": 0.4394,
+            "1_mean": 0.0459,
+            "0_mean": 0.0373
+        },
+        "Shoplifting005_x264": {
+            "roc_auc": 0.4562,
+            "pr_auc": 0.0536,
+            "1_mean": 0.0,
+            "0_mean": 0.0122
+        },
+        "Shoplifting007_x264": {
+            "roc_auc": 0.499,
+            "pr_auc": 0.049,
+            "1_mean": 0.0,
+            "0_mean": 0.0002
+        },
+        "Shoplifting010_x264": {
+            "roc_auc": 0.5239,
+            "pr_auc": 0.3854,
+            "1_mean": 0.0461,
+            "0_mean": 0.0113
+        },
+        "Shoplifting015_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5335,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting016_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5307,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting017_x264": {
+            "roc_auc": 0.7459,
+            "pr_auc": 0.7798,
+            "1_mean": 0.0984,
+            "0_mean": 0.0
+        },
+        "Shoplifting020_x264": {
+            "roc_auc": 0.4182,
+            "pr_auc": 0.0105,
+            "1_mean": 0.0,
+            "0_mean": 0.0392
+        },
+        "Shoplifting021_x264": {
+            "roc_auc": 0.3718,
+            "pr_auc": 0.0213,
+            "1_mean": 0.0,
+            "0_mean": 0.0794
+        },
+        "Shoplifting022_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5621,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting027_x264": {
+            "roc_auc": 0.4488,
+            "pr_auc": 0.1228,
+            "1_mean": 0.0152,
+            "0_mean": 0.037
+        },
+        "Shoplifting028_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5999,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting029_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.6036,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting031_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.736,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting033_x264": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.5673,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Shoplifting034_x264": {
+            "roc_auc": 0.4931,
+            "pr_auc": 0.0051,
+            "1_mean": 0.0,
+            "0_mean": 0.0017
+        },
+        "Shoplifting037_x264": {
+            "roc_auc": 0.346,
+            "pr_auc": 0.022,
+            "1_mean": 0.0,
+            "0_mean": 0.074
+        },
+        "Shoplifting039_x264": {
+            "roc_auc": 0.5619,
+            "pr_auc": 0.0782,
+            "1_mean": 0.0477,
+            "0_mean": 0.0215
+        },
+        "Shoplifting044_x264": {
+            "roc_auc": 0.4233,
+            "pr_auc": 0.0062,
+            "1_mean": 0.0,
+            "0_mean": 0.0388
+        },
+        "Shoplifting049_x264": {
+            "roc_auc": 0.4794,
+            "pr_auc": 0.077,
+            "1_mean": 0.0,
+            "0_mean": 0.0046
+        },
+        "Stealing019_x264": {
+            "roc_auc": 0.542,
+            "pr_auc": 0.0594,
+            "1_mean": 0.1347,
+            "0_mean": 0.0949
+        },
+        "Stealing036_x264": {
+            "roc_auc": 0.2387,
+            "pr_auc": 0.0661,
+            "1_mean": 0.0,
+            "0_mean": 0.1141
+        },
+        "Stealing058_x264": {
+            "roc_auc": 0.824,
+            "pr_auc": 0.8557,
+            "1_mean": 0.639,
+            "0_mean": 0.2048
+        },
+        "Stealing062_x264": {
+            "roc_auc": 0.8999,
+            "pr_auc": 0.8994,
+            "1_mean": 0.3,
+            "0_mean": 0.0663
+        },
+        "Stealing079_x264": {
+            "roc_auc": 0.7634,
+            "pr_auc": 0.6234,
+            "1_mean": 0.1892,
+            "0_mean": 0.0343
+        },
+        "Vandalism007_x264": {
+            "roc_auc": 0.2439,
+            "pr_auc": 0.2831,
+            "1_mean": 0.0311,
+            "0_mean": 0.1395
+        },
+        "Vandalism015_x264": {
+            "roc_auc": 0.3423,
+            "pr_auc": 0.2645,
+            "1_mean": 0.1889,
+            "0_mean": 0.2392
+        },
+        "Vandalism017_x264": {
+            "roc_auc": 0.6568,
+            "pr_auc": 0.3015,
+            "1_mean": 0.3566,
+            "0_mean": 0.2474
+        },
+        "Vandalism028_x264": {
+            "roc_auc": 0.7082,
+            "pr_auc": 0.5754,
+            "1_mean": 0.5,
+            "0_mean": 0.2918
+        },
+        "Vandalism036_x264": {
+            "roc_auc": 0.7093,
+            "pr_auc": 0.7762,
+            "1_mean": 0.2292,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_003_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0398
+        },
+        "Normal_Videos_006_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_010_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1481
+        },
+        "Normal_Videos_014_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1504
+        },
+        "Normal_Videos_015_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_018_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_019_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_024_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_025_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_027_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_033_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_034_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0073
+        },
+        "Normal_Videos_041_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_042_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_048_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_050_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_051_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_056_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_059_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.001
+        },
+        "Normal_Videos_063_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_067_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0059
+        },
+        "Normal_Videos_070_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_100_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_129_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_150_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.017
+        },
+        "Normal_Videos_168_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_175_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0376
+        },
+        "Normal_Videos_182_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_189_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_196_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_203_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.5704
+        },
+        "Normal_Videos_210_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_217_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0286
+        },
+        "Normal_Videos_224_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0085
+        },
+        "Normal_Videos_246_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0078
+        },
+        "Normal_Videos_247_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_248_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0402
+        },
+        "Normal_Videos_251_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0207
+        },
+        "Normal_Videos_289_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_310_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_312_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_317_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0906
+        },
+        "Normal_Videos_345_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_352_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_360_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_365_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0066
+        },
+        "Normal_Videos_401_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_417_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0003
+        },
+        "Normal_Videos_439_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_452_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_453_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0098
+        },
+        "Normal_Videos_478_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_576_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_597_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0127
+        },
+        "Normal_Videos_603_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0936
+        },
+        "Normal_Videos_606_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_621_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0645
+        },
+        "Normal_Videos_634_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_641_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0132
+        },
+        "Normal_Videos_656_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_686_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0342
+        },
+        "Normal_Videos_696_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0068
+        },
+        "Normal_Videos_702_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_704_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_710_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.005
+        },
+        "Normal_Videos_717_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_722_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.002
+        },
+        "Normal_Videos_725_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_745_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_758_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0618
+        },
+        "Normal_Videos_778_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_780_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0356
+        },
+        "Normal_Videos_781_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0372
+        },
+        "Normal_Videos_782_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0379
+        },
+        "Normal_Videos_783_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0202
+        },
+        "Normal_Videos_798_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_801_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_828_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_831_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0826
+        },
+        "Normal_Videos_866_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0374
+        },
+        "Normal_Videos_867_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_868_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.11
+        },
+        "Normal_Videos_869_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0032
+        },
+        "Normal_Videos_870_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.03
+        },
+        "Normal_Videos_871_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0001
+        },
+        "Normal_Videos_872_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_873_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0005
+        },
+        "Normal_Videos_874_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_875_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_876_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_877_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0121
+        },
+        "Normal_Videos_878_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_879_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_880_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_881_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_882_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0288
+        },
+        "Normal_Videos_883_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_884_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0283
+        },
+        "Normal_Videos_885_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_886_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_887_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.3345
+        },
+        "Normal_Videos_888_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_889_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_890_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_891_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_892_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0115
+        },
+        "Normal_Videos_893_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_894_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_895_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0357
+        },
+        "Normal_Videos_896_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0234
+        },
+        "Normal_Videos_897_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_898_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_899_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_900_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_901_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0277
+        },
+        "Normal_Videos_902_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_903_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_904_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_905_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_906_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_907_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0321
+        },
+        "Normal_Videos_908_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_909_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1483
+        },
+        "Normal_Videos_910_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0956
+        },
+        "Normal_Videos_911_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_912_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_913_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_914_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_915_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.2635
+        },
+        "Normal_Videos_923_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0105
+        },
+        "Normal_Videos_924_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1331
+        },
+        "Normal_Videos_925_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.2958
+        },
+        "Normal_Videos_926_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_927_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_928_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_929_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_930_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_931_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0122
+        },
+        "Normal_Videos_932_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0185
+        },
+        "Normal_Videos_933_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_934_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0037
+        },
+        "Normal_Videos_935_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0165
+        },
+        "Normal_Videos_936_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_937_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_938_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_939_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "Normal_Videos_940_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0071
+        },
+        "Normal_Videos_941_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1739
+        },
+        "Normal_Videos_943_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0294
+        },
+        "Normal_Videos_944_x264": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0067
+        }
+    },
+    "dataset_metric": {
+        "all": {
+            "pr_auc": 0.2875,
+            "roc_auc": 0.7356
+        },
+        "Abnormal": {
+            "pr_auc": 0.3665,
+            "roc_auc": 0.6812
+        },
+        "Normal": {
+            "pr_auc": 0.5,
+            "roc_auc": NaN
+        },
+        "Abuse": {
+            "pr_auc": 0.2299,
+            "roc_auc": 0.4769
+        },
+        "Arrest": {
+            "pr_auc": 0.3051,
+            "roc_auc": 0.6221
+        },
+        "Arson": {
+            "pr_auc": 0.426,
+            "roc_auc": 0.6004
+        },
+        "Assault": {
+            "pr_auc": 0.8322,
+            "roc_auc": 0.8913
+        },
+        "Burglary": {
+            "pr_auc": 0.4898,
+            "roc_auc": 0.7095
+        },
+        "Explosion": {
+            "pr_auc": 0.3524,
+            "roc_auc": 0.7018
+        },
+        "Fighting": {
+            "pr_auc": 0.5546,
+            "roc_auc": 0.6904
+        },
+        "RoadAccidents": {
+            "pr_auc": 0.2979,
+            "roc_auc": 0.6272
+        },
+        "Robbery": {
+            "pr_auc": 0.6404,
+            "roc_auc": 0.5607
+        },
+        "Shooting": {
+            "pr_auc": 0.2996,
+            "roc_auc": 0.7167
+        },
+        "Shoplifting": {
+            "pr_auc": 0.1048,
+            "roc_auc": 0.5076
+        },
+        "Stealing": {
+            "pr_auc": 0.6031,
+            "roc_auc": 0.8086
+        },
+        "Vandalism": {
+            "pr_auc": 0.2584,
+            "roc_auc": 0.5231
+        }
+    },
+    "args_dict": {
+        "video_root": "/root/autodl-fs/lwl/data/UCF_Crime_test/test_videos",
+        "scores_json": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q/DeepSeek-R1-Distill-Qwen-14B/maxf64_ucf_prior_q_Here is a .json",
+        "similarity_pkl": false,
+        "similarity_type": "VxV",
+        "normal_label": 7,
+        "topK": 10,
+        "num_neighbors": 10,
+        "dyn_ratio": null,
+        "tao": 0.1,
+        "LenAlign": 0,
+        "boost": 0,
+        "without_labels": false,
+        "visualize": false,
+        "video_fps": 30.0,
+        "annotationfile_path": "/root/autodl-tmp/data/LAVAD_data/ucf_crime/annotations/anomaly_test.txt",
+        "temporal_annotation_file": "/root/autodl-tmp/data/LAVAD_data/ucf_crime/annotations/Temporal_Anomaly_Annotation_for_Testing_Videos.txt",
+        "blip2_feat_path": "/root/autodl-tmp/data/UCF_Crime_test/test_videos_blip2_feat",
+        "output_dir": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q/DeepSeek-R1-Distill-Qwen-14B",
+        "split_pred": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/pred.json",
+        "refine_score_output_json": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q/DeepSeek-R1-Distill-Qwen-14B/refine_maxf64_ucf_prior_q_Here is a .json"
+    }
+}

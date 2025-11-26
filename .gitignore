@@ -1,0 +1,19 @@
+# IDEs
+.vscode/
+.idea/
+
+# Model weights / checkpoints / large binaries
+.checkpoints/
+siglip-so400m-patch14-384/
+
+weights/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+*.npz
+*.npy
+
+#
+paper_result/

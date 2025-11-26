@@ -1,0 +1,17 @@
+MODEL:
+  NAME: 'E2EModel'
+  BACKBONE:
+    NAME: 'resnet152'
+
+INPUT:
+  END_TO_END: True
+  SEQUENCE_LENGTH: 100
+SOLVER:
+  BATCH_SIZE: 2
+  LR: 1e-2
+  OPTIMIZER: 'SGD'
+  MAX_EPOCHS: 30
+  MILESTONES: [12, 16]
+TEST:
+  THRESHOLD: 0.3
+OUTPUT_DIR: 'output/baseline_end_to_end_res152'

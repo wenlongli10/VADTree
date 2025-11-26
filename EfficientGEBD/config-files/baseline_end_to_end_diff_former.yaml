@@ -1,0 +1,30 @@
+MODEL:
+  NAME: 'E2EModelDiff'
+  K: 8
+  NUM_TSLICE: 1
+  SIMILARITY_GROUP: 1
+  HEAD_CHOICE: [0]  # [0,1,2,3]
+  LOSS_WEIGHT: [1]  # [1,1,1,1]
+  MSP_LOSS_WEIGHT: 1
+DATASETS:
+  TRAIN: ('GEBD_train',)
+  TEST: ('GEBD_val',)
+INPUT:
+  END_TO_END: True
+  SEQUENCE_LENGTH: 100
+  ANNOTATORS: 2
+SOLVER:
+  BATCH_SIZE: 2
+  LR: 1e-2
+  OPTIMIZER: 'SGD'
+  MAX_EPOCHS: 20
+  MILESTONES: [6, 8, 12, 16] # [3, 9, 15]
+TEST:
+  DYNAMIC: False
+  THRESHOLD: 0.3
+  THH: [0.35, 0.35, 0.35]
+  THL: [0., 0., 0.]
+  IGNORE: 5
+  PAD_IGNORE: 2
+  PRED_FILE: ''
+OUTPUT_DIR: 'output/ablation/'
