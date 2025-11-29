@@ -39,10 +39,17 @@ the number of sampled video segments.
 # Datasets preparation
 The groundtruth for The UCF-Crime, XD-Violence (from [LAVAD](https://github.com/lucazanella/lavad)) and MSAD datasets is already included in the **dataset_info** folder and no additional download is required.  
 Only step 1,3,5 requires video data to run.   
-You can download the video data from the following official websites:
-- UCF-Crime: [link](https://www.crcv.ucf.edu/projects/real-world/)
-- XD-Violence: [link](https://roc-ng.github.io/XD-Violence/)
-- MSAD: [link](https://msad-dataset.github.io/)
+You can download the video data from the following official websites:   
+ UCF-Crime: [link](https://www.crcv.ucf.edu/projects/real-world/) &emsp;
+ XD-Violence: [link](https://roc-ng.github.io/XD-Violence/) &emsp;
+ MSAD: [link](https://msad-dataset.github.io/) 
+The test video folder structure should be as follows:
+```
+UCF_CRIME_TEST_VIDEO_DIR (290 videos)
+├── Abuse028_x264.mp4
+├── Abuse030_x264.mp4
+└── ...
+```
 
 # Install
 ### 1. Clone the repository and Install VADTree environment
@@ -75,7 +82,7 @@ You need to first configure the project environment of EfficientGEBD and the mod
 conda activate EfficientGEBD
 cd EfficientGEBD
 python GEBD_split100.py \
-    --video_dir /path/to/UCF_CRIME_VIDEO_DIR \
+    --video_dir /path/to/UCF_CRIME_TEST_VIDEO_DIR \
     --resume /path/to/GEBD_MODEL_WEIGHT \
     --config-file /path/to/MODEL_CONFIG \
 ```
@@ -113,11 +120,11 @@ conda activate llava
 cd LLaVA-NeXT
 python infer_VAD.py \
   --pretrained /path/to/VLM_MODEL_DIR \
-  --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+  --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
   --json_path ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/dfs_coarse_scenes.json \
 python infer_VAD.py \
   --pretrained /path/to/VLM_MODEL_DIR \
-  --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+  --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
   --json_path ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/dfs_fine_scenes.json \
 ```
 
@@ -133,11 +140,11 @@ You need to first configure the model file of DeepSeek-R1-Distill-Qwen-14B: LLM_
 ```bash
 cd ../DeepSeek-R1
 python deepseek_batch_infer.py  \
-    --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+    --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
     --ckpt_dir /path/to/LLM_MODEL_DIR \
     --input_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/maxf64_ucf_prior_q_Here is a .json \
 python deepseek_batch_infer.py  \
-    --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+    --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
     --ckpt_dir /path/to/LLM_MODEL_DIR \
     --input_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_fine/maxf64_ucf_prior_q_Here is a .json \
 ```
@@ -156,10 +163,10 @@ conda activate VADtree
 cd ../ImageBind
 python imagebind_sim.py \
     --video_summary_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/maxf64_ucf_prior_q_Here is a .json \
-    --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+    --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
 python imagebind_sim.py \
     --video_summary_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/maxf64_ucf_prior_q_Here is a .json \
-    --video_root /path/to/UCF_CRIME_VIDEO_DIR \
+    --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
 ```
 
 Coarse and Fine Output:

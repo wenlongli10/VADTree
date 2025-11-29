@@ -1,0 +1,1521 @@
+{
+    "vid_metric": {
+        "Assault_2": {
+            "roc_auc": 0.6392,
+            "pr_auc": 0.6765,
+            "1_mean": 0.4822,
+            "0_mean": 0.4627
+        },
+        "Assault_4": {
+            "roc_auc": 0.9455,
+            "pr_auc": 0.9999,
+            "1_mean": 0.4226,
+            "0_mean": 0.3472
+        },
+        "Assault_7": {
+            "roc_auc": 0.6471,
+            "pr_auc": 0.122,
+            "1_mean": 0.6251,
+            "0_mean": 0.4621
+        },
+        "Assault_8": {
+            "roc_auc": 0.7474,
+            "pr_auc": 0.6179,
+            "1_mean": 0.0765,
+            "0_mean": 0.0217
+        },
+        "Assault_11": {
+            "roc_auc": 0.9984,
+            "pr_auc": 0.9914,
+            "1_mean": 0.4499,
+            "0_mean": 0.3078
+        },
+        "Assault_13": {
+            "roc_auc": 0.9895,
+            "pr_auc": 0.9803,
+            "1_mean": 0.4114,
+            "0_mean": 0.2748
+        },
+        "Assault_14": {
+            "roc_auc": 0.6385,
+            "pr_auc": 0.9259,
+            "1_mean": 0.2199,
+            "0_mean": 0.1864
+        },
+        "Assault_15": {
+            "roc_auc": 0.2091,
+            "pr_auc": 0.272,
+            "1_mean": 0.0585,
+            "0_mean": 0.079
+        },
+        "Explosion_1": {
+            "roc_auc": 0.0139,
+            "pr_auc": 0.9195,
+            "1_mean": 0.3974,
+            "0_mean": 0.4503
+        },
+        "Explosion_3": {
+            "roc_auc": 0.9945,
+            "pr_auc": 0.875,
+            "1_mean": 0.2562,
+            "0_mean": 0.1255
+        },
+        "Explosion_5": {
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "1_mean": 0.3038,
+            "0_mean": 0.0962
+        },
+        "Explosion_7": {
+            "roc_auc": 0.3326,
+            "pr_auc": 0.7768,
+            "1_mean": 0.3437,
+            "0_mean": 0.3414
+        },
+        "Explosion_9": {
+            "roc_auc": 0.9976,
+            "pr_auc": 0.9985,
+            "1_mean": 0.189,
+            "0_mean": 0.0901
+        },
+        "Explosion_11": {
+            "roc_auc": 0.8994,
+            "pr_auc": 0.9639,
+            "1_mean": 0.4663,
+            "0_mean": 0.3384
+        },
+        "Explosion_13": {
+            "roc_auc": 0.999,
+            "pr_auc": 0.9986,
+            "1_mean": 0.3008,
+            "0_mean": 0.0965
+        },
+        "Explosion_15": {
+            "roc_auc": 0.6594,
+            "pr_auc": 0.5832,
+            "1_mean": 0.2135,
+            "0_mean": 0.1254
+        },
+        "Fighting_3": {
+            "roc_auc": 0.9981,
+            "pr_auc": 0.9983,
+            "1_mean": 0.4666,
+            "0_mean": 0.0823
+        },
+        "Fighting_4": {
+            "roc_auc": 0.0776,
+            "pr_auc": 0.6517,
+            "1_mean": 0.5192,
+            "0_mean": 0.5302
+        },
+        "Fighting_7": {
+            "roc_auc": 0.9691,
+            "pr_auc": 0.9999,
+            "1_mean": 0.6345,
+            "0_mean": 0.5158
+        },
+        "Fighting_10": {
+            "roc_auc": 0.9933,
+            "pr_auc": 0.9982,
+            "1_mean": 0.5599,
+            "0_mean": 0.299
+        },
+        "Fighting_12": {
+            "roc_auc": 0.9717,
+            "pr_auc": 0.9847,
+            "1_mean": 0.5314,
+            "0_mean": 0.3873
+        },
+        "Fighting_13": {
+            "roc_auc": 0.8971,
+            "pr_auc": 0.839,
+            "1_mean": 0.3669,
+            "0_mean": 0.239
+        },
+        "Fire_2": {
+            "roc_auc": 0.0981,
+            "pr_auc": 0.988,
+            "1_mean": 0.2022,
+            "0_mean": 0.234
+        },
+        "Fire_4": {
+            "roc_auc": 0.4847,
+            "pr_auc": 0.999,
+            "1_mean": 0.6291,
+            "0_mean": 0.6294
+        },
+        "Fire_6": {
+            "roc_auc": 0.0122,
+            "pr_auc": 0.3129,
+            "1_mean": 0.0275,
+            "0_mean": 0.0474
+        },
+        "Fire_8": {
+            "roc_auc": 0.9967,
+            "pr_auc": 1.0,
+            "1_mean": 0.3166,
+            "0_mean": 0.2211
+        },
+        "Fire_11": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.9973,
+            "1_mean": 0.25,
+            "0_mean": 0.25
+        },
+        "Fire_12": {
+            "roc_auc": 0.3524,
+            "pr_auc": 0.2915,
+            "1_mean": 0.076,
+            "0_mean": 0.0812
+        },
+        "Fire_15": {
+            "roc_auc": 0.0017,
+            "pr_auc": 0.9795,
+            "1_mean": 0.2276,
+            "0_mean": 0.2601
+        },
+        "Fire_16": {
+            "roc_auc": 0.9987,
+            "pr_auc": 1.0,
+            "1_mean": 0.2634,
+            "0_mean": 0.2496
+        },
+        "Fire_20": {
+            "roc_auc": 0.3476,
+            "pr_auc": 0.998,
+            "1_mean": 0.3045,
+            "0_mean": 0.3103
+        },
+        "Fire_21": {
+            "roc_auc": 0.8013,
+            "pr_auc": 0.9904,
+            "1_mean": 0.0494,
+            "0_mean": 0.0379
+        },
+        "Fire_22": {
+            "roc_auc": 0.0452,
+            "pr_auc": 0.5314,
+            "1_mean": 0.1704,
+            "0_mean": 0.2065
+        },
+        "Fire_24": {
+            "roc_auc": 0.986,
+            "pr_auc": 0.9566,
+            "1_mean": 0.2674,
+            "0_mean": 0.2336
+        },
+        "Object_falling_3": {
+            "roc_auc": 0.8571,
+            "pr_auc": 0.9998,
+            "1_mean": 0.0635,
+            "0_mean": 0.0257
+        },
+        "Object_falling_4": {
+            "roc_auc": 0.715,
+            "pr_auc": 0.6877,
+            "1_mean": 0.0054,
+            "0_mean": 0.0049
+        },
+        "Object_falling_7": {
+            "roc_auc": 0.4258,
+            "pr_auc": 0.2912,
+            "1_mean": 0.106,
+            "0_mean": 0.1059
+        },
+        "Object_falling_9": {
+            "roc_auc": 0.9549,
+            "pr_auc": 1.0,
+            "1_mean": 0.1018,
+            "0_mean": 0.0719
+        },
+        "Object_falling_11": {
+            "roc_auc": 0.7949,
+            "pr_auc": 0.6283,
+            "1_mean": 0.0171,
+            "0_mean": 0.0134
+        },
+        "Object_falling_14": {
+            "roc_auc": 0.1947,
+            "pr_auc": 0.6744,
+            "1_mean": 0.0839,
+            "0_mean": 0.0885
+        },
+        "Object_falling_15": {
+            "roc_auc": 0.6883,
+            "pr_auc": 0.1441,
+            "1_mean": 0.2948,
+            "0_mean": 0.2845
+        },
+        "Object_falling_17": {
+            "roc_auc": 0.9524,
+            "pr_auc": 0.8763,
+            "1_mean": 0.1144,
+            "0_mean": 0.0876
+        },
+        "Object_falling_19": {
+            "roc_auc": 0.8873,
+            "pr_auc": 0.9803,
+            "1_mean": 0.1389,
+            "0_mean": 0.1134
+        },
+        "Object_falling_21": {
+            "roc_auc": 0.3658,
+            "pr_auc": 0.0831,
+            "1_mean": 0.0529,
+            "0_mean": 0.0567
+        },
+        "People_falling_1": {
+            "roc_auc": 0.7391,
+            "pr_auc": 0.3278,
+            "1_mean": 0.0527,
+            "0_mean": 0.0428
+        },
+        "People_falling_3": {
+            "roc_auc": 0.1689,
+            "pr_auc": 0.1473,
+            "1_mean": 0.0056,
+            "0_mean": 0.013
+        },
+        "People_falling_5": {
+            "roc_auc": 0.8019,
+            "pr_auc": 0.5869,
+            "1_mean": 0.0773,
+            "0_mean": 0.064
+        },
+        "People_falling_7": {
+            "roc_auc": 0.5515,
+            "pr_auc": 0.5835,
+            "1_mean": 0.0687,
+            "0_mean": 0.0762
+        },
+        "People_falling_10": {
+            "roc_auc": 0.8658,
+            "pr_auc": 0.7606,
+            "1_mean": 0.1261,
+            "0_mean": 0.069
+        },
+        "People_falling_11": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.7013,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "People_falling_14": {
+            "roc_auc": 0.497,
+            "pr_auc": 0.2854,
+            "1_mean": 0.1462,
+            "0_mean": 0.1366
+        },
+        "People_falling_16": {
+            "roc_auc": 0.0618,
+            "pr_auc": 0.1353,
+            "1_mean": 0.0616,
+            "0_mean": 0.0866
+        },
+        "People_falling_18": {
+            "roc_auc": 0.3439,
+            "pr_auc": 0.1063,
+            "1_mean": 0.1382,
+            "0_mean": 0.1491
+        },
+        "People_falling_20": {
+            "roc_auc": 0.6888,
+            "pr_auc": 0.4428,
+            "1_mean": 0.1405,
+            "0_mean": 0.1382
+        },
+        "People_falling_23": {
+            "roc_auc": 0.9246,
+            "pr_auc": 0.9883,
+            "1_mean": 0.1165,
+            "0_mean": 0.1057
+        },
+        "People_falling_24": {
+            "roc_auc": 0.989,
+            "pr_auc": 0.9808,
+            "1_mean": 0.0694,
+            "0_mean": 0.0478
+        },
+        "People_falling_25": {
+            "roc_auc": 0.5179,
+            "pr_auc": 0.8247,
+            "1_mean": 0.0522,
+            "0_mean": 0.052
+        },
+        "People_falling_26": {
+            "roc_auc": 0.0216,
+            "pr_auc": 0.3588,
+            "1_mean": 0.1832,
+            "0_mean": 0.2051
+        },
+        "People_falling_28": {
+            "roc_auc": 0.003,
+            "pr_auc": 0.2472,
+            "1_mean": 0.0095,
+            "0_mean": 0.0157
+        },
+        "People_falling_31": {
+            "roc_auc": 0.7933,
+            "pr_auc": 0.8777,
+            "1_mean": 0.0565,
+            "0_mean": 0.0543
+        },
+        "People_falling_32": {
+            "roc_auc": 0.3127,
+            "pr_auc": 0.6565,
+            "1_mean": 0.0066,
+            "0_mean": 0.0072
+        },
+        "People_falling_36": {
+            "roc_auc": 0.9502,
+            "pr_auc": 0.9521,
+            "1_mean": 0.055,
+            "0_mean": 0.0244
+        },
+        "People_falling_37": {
+            "roc_auc": 0.9708,
+            "pr_auc": 0.9744,
+            "1_mean": 0.1157,
+            "0_mean": 0.0972
+        },
+        "People_falling_38": {
+            "roc_auc": 0.3178,
+            "pr_auc": 0.4149,
+            "1_mean": 0.1218,
+            "0_mean": 0.1317
+        },
+        "People_falling_40": {
+            "roc_auc": 0.8575,
+            "pr_auc": 0.4865,
+            "1_mean": 0.2578,
+            "0_mean": 0.2483
+        },
+        "People_falling_42": {
+            "roc_auc": 0.9393,
+            "pr_auc": 0.9422,
+            "1_mean": 0.1578,
+            "0_mean": 0.0985
+        },
+        "Robbery_2": {
+            "roc_auc": 0.9322,
+            "pr_auc": 0.8716,
+            "1_mean": 0.0792,
+            "0_mean": 0.0662
+        },
+        "Robbery_4": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.9578,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Robbery_7": {
+            "roc_auc": 0.0619,
+            "pr_auc": 0.94,
+            "1_mean": 0.4935,
+            "0_mean": 0.5553
+        },
+        "Robbery_8": {
+            "roc_auc": 0.6661,
+            "pr_auc": 0.4528,
+            "1_mean": 0.0677,
+            "0_mean": 0.062
+        },
+        "Robbery_11": {
+            "roc_auc": 0.994,
+            "pr_auc": 0.9996,
+            "1_mean": 0.6446,
+            "0_mean": 0.4747
+        },
+        "Robbery_13": {
+            "roc_auc": 0.2574,
+            "pr_auc": 0.8821,
+            "1_mean": 0.0602,
+            "0_mean": 0.0701
+        },
+        "Robbery_15": {
+            "roc_auc": 0.9985,
+            "pr_auc": 1.0,
+            "1_mean": 0.6534,
+            "0_mean": 0.478
+        },
+        "Robbery_17": {
+            "roc_auc": 0.5886,
+            "pr_auc": 0.152,
+            "1_mean": 0.1938,
+            "0_mean": 0.2081
+        },
+        "Robbery_19": {
+            "roc_auc": 0.5312,
+            "pr_auc": 0.8881,
+            "1_mean": 0.2388,
+            "0_mean": 0.2202
+        },
+        "Robbery_21": {
+            "roc_auc": 0.9508,
+            "pr_auc": 0.9817,
+            "1_mean": 0.3684,
+            "0_mean": 0.2895
+        },
+        "Robbery_23": {
+            "roc_auc": 0.5556,
+            "pr_auc": 0.9974,
+            "1_mean": 0.1454,
+            "0_mean": 0.1436
+        },
+        "Robbery_27": {
+            "roc_auc": 0.8937,
+            "pr_auc": 0.9867,
+            "1_mean": 0.1806,
+            "0_mean": 0.1273
+        },
+        "Robbery_28": {
+            "roc_auc": 0.0182,
+            "pr_auc": 0.9945,
+            "1_mean": 0.3858,
+            "0_mean": 0.5302
+        },
+        "Robbery_29": {
+            "roc_auc": 0.116,
+            "pr_auc": 0.6477,
+            "1_mean": 0.0057,
+            "0_mean": 0.0318
+        },
+        "Shooting_2": {
+            "roc_auc": 0.7529,
+            "pr_auc": 0.8642,
+            "1_mean": 0.1436,
+            "0_mean": 0.136
+        },
+        "Shooting_4": {
+            "roc_auc": 0.9806,
+            "pr_auc": 0.9999,
+            "1_mean": 0.2027,
+            "0_mean": 0.1497
+        },
+        "Shooting_5": {
+            "roc_auc": 0.4375,
+            "pr_auc": 0.9952,
+            "1_mean": 0.3027,
+            "0_mean": 0.3172
+        },
+        "Shooting_6": {
+            "roc_auc": 0.8076,
+            "pr_auc": 0.9388,
+            "1_mean": 0.7851,
+            "0_mean": 0.5765
+        },
+        "Shooting_10": {
+            "roc_auc": 0.8897,
+            "pr_auc": 0.8415,
+            "1_mean": 0.0518,
+            "0_mean": 0.049
+        },
+        "Shooting_12": {
+            "roc_auc": 0.9966,
+            "pr_auc": 0.9965,
+            "1_mean": 0.3844,
+            "0_mean": 0.3443
+        },
+        "Shooting_13": {
+            "roc_auc": 0.428,
+            "pr_auc": 0.7734,
+            "1_mean": 0.366,
+            "0_mean": 0.3668
+        },
+        "Shooting_16": {
+            "roc_auc": 0.7252,
+            "pr_auc": 0.9987,
+            "1_mean": 0.3994,
+            "0_mean": 0.3861
+        },
+        "Shooting_17": {
+            "roc_auc": 0.9898,
+            "pr_auc": 0.9924,
+            "1_mean": 0.5227,
+            "0_mean": 0.4734
+        },
+        "Traffic_accident_2": {
+            "roc_auc": 0.9974,
+            "pr_auc": 0.9988,
+            "1_mean": 0.2861,
+            "0_mean": 0.2068
+        },
+        "Traffic_accident_4": {
+            "roc_auc": 0.6792,
+            "pr_auc": 0.7392,
+            "1_mean": 0.3511,
+            "0_mean": 0.3207
+        },
+        "Traffic_accident_7": {
+            "roc_auc": 0.306,
+            "pr_auc": 0.3065,
+            "1_mean": 0.183,
+            "0_mean": 0.19
+        },
+        "Traffic_accident_8": {
+            "roc_auc": 0.3871,
+            "pr_auc": 0.6389,
+            "1_mean": 0.1526,
+            "0_mean": 0.1535
+        },
+        "Traffic_accident_11": {
+            "roc_auc": 0.865,
+            "pr_auc": 0.9386,
+            "1_mean": 0.2574,
+            "0_mean": 0.2521
+        },
+        "Traffic_accident_12": {
+            "roc_auc": 0.8205,
+            "pr_auc": 0.9768,
+            "1_mean": 0.1921,
+            "0_mean": 0.1446
+        },
+        "Traffic_accident_15": {
+            "roc_auc": 0.982,
+            "pr_auc": 0.9841,
+            "1_mean": 0.1084,
+            "0_mean": 0.07
+        },
+        "Traffic_accident_16": {
+            "roc_auc": 0.5,
+            "pr_auc": 0.6403,
+            "1_mean": 0.0,
+            "0_mean": 0.0
+        },
+        "Traffic_accident_19": {
+            "roc_auc": 0.9252,
+            "pr_auc": 0.9997,
+            "1_mean": 0.3658,
+            "0_mean": 0.1366
+        },
+        "Traffic_accident_20": {
+            "roc_auc": 0.9977,
+            "pr_auc": 0.994,
+            "1_mean": 0.0173,
+            "0_mean": 0.0143
+        },
+        "Traffic_accident_21": {
+            "roc_auc": 0.2837,
+            "pr_auc": 0.0403,
+            "1_mean": 0.0676,
+            "0_mean": 0.0722
+        },
+        "Traffic_accident_23": {
+            "roc_auc": 0.5769,
+            "pr_auc": 0.8825,
+            "1_mean": 0.1099,
+            "0_mean": 0.1032
+        },
+        "Traffic_accident_25": {
+            "roc_auc": 0.3929,
+            "pr_auc": 0.3723,
+            "1_mean": 0.0411,
+            "0_mean": 0.0449
+        },
+        "Traffic_accident_26": {
+            "roc_auc": 0.6178,
+            "pr_auc": 0.5477,
+            "1_mean": 0.1056,
+            "0_mean": 0.0911
+        },
+        "Traffic_accident_27": {
+            "roc_auc": 0.655,
+            "pr_auc": 0.6318,
+            "1_mean": 0.1368,
+            "0_mean": 0.1294
+        },
+        "Traffic_accident_31": {
+            "roc_auc": 0.8713,
+            "pr_auc": 0.8283,
+            "1_mean": 0.0151,
+            "0_mean": 0.0069
+        },
+        "Traffic_accident_32": {
+            "roc_auc": 0.8191,
+            "pr_auc": 0.6251,
+            "1_mean": 0.2455,
+            "0_mean": 0.1756
+        },
+        "Traffic_accident_35": {
+            "roc_auc": 0.2645,
+            "pr_auc": 0.1262,
+            "1_mean": 0.0415,
+            "0_mean": 0.0426
+        },
+        "Traffic_accident_36": {
+            "roc_auc": 0.3629,
+            "pr_auc": 0.5841,
+            "1_mean": 0.2414,
+            "0_mean": 0.2462
+        },
+        "Traffic_accident_39": {
+            "roc_auc": 0.3536,
+            "pr_auc": 0.07,
+            "1_mean": 0.1,
+            "0_mean": 0.1146
+        },
+        "Vandalism_1": {
+            "roc_auc": 0.7092,
+            "pr_auc": 0.1725,
+            "1_mean": 0.0244,
+            "0_mean": 0.0199
+        },
+        "Vandalism_3": {
+            "roc_auc": 0.9969,
+            "pr_auc": 0.9995,
+            "1_mean": 0.1781,
+            "0_mean": 0.1005
+        },
+        "Vandalism_4": {
+            "roc_auc": 0.452,
+            "pr_auc": 0.0471,
+            "1_mean": 0.1028,
+            "0_mean": 0.1023
+        },
+        "Vandalism_6": {
+            "roc_auc": 0.3036,
+            "pr_auc": 0.6464,
+            "1_mean": 0.6362,
+            "0_mean": 0.6809
+        },
+        "Vandalism_9": {
+            "roc_auc": 0.845,
+            "pr_auc": 0.7359,
+            "1_mean": 0.4481,
+            "0_mean": 0.4001
+        },
+        "Vandalism_12": {
+            "roc_auc": 0.4974,
+            "pr_auc": 0.9982,
+            "1_mean": 0.9505,
+            "0_mean": 0.9517
+        },
+        "Water_incident_2": {
+            "roc_auc": 0.7443,
+            "pr_auc": 0.9744,
+            "1_mean": 0.023,
+            "0_mean": 0.0204
+        },
+        "Water_incident_4": {
+            "roc_auc": 0.9987,
+            "pr_auc": 1.0,
+            "1_mean": 0.1367,
+            "0_mean": 0.0867
+        },
+        "Water_incident_6": {
+            "roc_auc": 0.7969,
+            "pr_auc": 0.9997,
+            "1_mean": 0.0523,
+            "0_mean": 0.0466
+        },
+        "Water_incident_8": {
+            "roc_auc": 0.2538,
+            "pr_auc": 0.998,
+            "1_mean": 0.2716,
+            "0_mean": 0.293
+        },
+        "Water_incident_10": {
+            "roc_auc": 0.9972,
+            "pr_auc": 0.9982,
+            "1_mean": 0.1383,
+            "0_mean": 0.1003
+        },
+        "MSAD_normal_testing_1": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0122
+        },
+        "MSAD_normal_testing_2": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1055
+        },
+        "MSAD_normal_testing_3": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.195
+        },
+        "MSAD_normal_testing_4": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_5": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_6": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1007
+        },
+        "MSAD_normal_testing_7": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0164
+        },
+        "MSAD_normal_testing_8": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1271
+        },
+        "MSAD_normal_testing_9": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1196
+        },
+        "MSAD_normal_testing_10": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_11": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0761
+        },
+        "MSAD_normal_testing_12": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0223
+        },
+        "MSAD_normal_testing_13": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_14": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_15": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_16": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0431
+        },
+        "MSAD_normal_testing_17": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_18": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0113
+        },
+        "MSAD_normal_testing_19": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0254
+        },
+        "MSAD_normal_testing_20": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_21": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_22": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.003
+        },
+        "MSAD_normal_testing_23": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0029
+        },
+        "MSAD_normal_testing_24": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_25": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_26": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0166
+        },
+        "MSAD_normal_testing_27": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_28": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_29": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0852
+        },
+        "MSAD_normal_testing_30": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0058
+        },
+        "MSAD_normal_testing_31": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_32": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_33": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_34": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_35": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_36": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0347
+        },
+        "MSAD_normal_testing_37": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.014
+        },
+        "MSAD_normal_testing_38": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0084
+        },
+        "MSAD_normal_testing_39": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0402
+        },
+        "MSAD_normal_testing_40": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_41": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.15
+        },
+        "MSAD_normal_testing_42": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0413
+        },
+        "MSAD_normal_testing_43": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_44": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_45": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_46": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.012
+        },
+        "MSAD_normal_testing_47": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_48": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0938
+        },
+        "MSAD_normal_testing_49": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_50": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_51": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_52": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_53": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_54": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_55": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0332
+        },
+        "MSAD_normal_testing_56": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_57": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0467
+        },
+        "MSAD_normal_testing_58": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_59": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_60": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_61": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_62": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_63": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0107
+        },
+        "MSAD_normal_testing_64": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0009
+        },
+        "MSAD_normal_testing_65": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0347
+        },
+        "MSAD_normal_testing_66": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0049
+        },
+        "MSAD_normal_testing_67": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_68": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_69": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_70": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.025
+        },
+        "MSAD_normal_testing_71": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_72": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_73": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_74": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_75": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_76": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0249
+        },
+        "MSAD_normal_testing_77": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_78": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0079
+        },
+        "MSAD_normal_testing_79": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0143
+        },
+        "MSAD_normal_testing_80": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_81": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0519
+        },
+        "MSAD_normal_testing_82": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_83": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_84": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0085
+        },
+        "MSAD_normal_testing_85": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0168
+        },
+        "MSAD_normal_testing_86": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_87": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0085
+        },
+        "MSAD_normal_testing_88": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_89": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_90": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0175
+        },
+        "MSAD_normal_testing_91": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_92": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0624
+        },
+        "MSAD_normal_testing_93": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0121
+        },
+        "MSAD_normal_testing_94": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_95": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_96": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_97": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_98": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_99": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.1
+        },
+        "MSAD_normal_testing_100": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_101": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0021
+        },
+        "MSAD_normal_testing_102": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0162
+        },
+        "MSAD_normal_testing_103": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0386
+        },
+        "MSAD_normal_testing_104": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0218
+        },
+        "MSAD_normal_testing_105": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_106": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_107": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0457
+        },
+        "MSAD_normal_testing_108": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0199
+        },
+        "MSAD_normal_testing_109": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_110": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_111": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_112": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_113": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0497
+        },
+        "MSAD_normal_testing_114": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_115": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_116": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0359
+        },
+        "MSAD_normal_testing_117": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_118": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_119": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.0
+        },
+        "MSAD_normal_testing_120": {
+            "roc_auc": NaN,
+            "pr_auc": 0.5,
+            "1_mean": NaN,
+            "0_mean": 0.017
+        }
+    },
+    "dataset_metric": {
+        "all": {
+            "pr_auc": 0.7141,
+            "roc_auc": 0.8932
+        },
+        "Abnormal": {
+            "pr_auc": 0.7549,
+            "roc_auc": 0.6785
+        },
+        "Normal": {
+            "pr_auc": 0.5,
+            "roc_auc": NaN
+        },
+        "Assault": {
+            "pr_auc": 0.6457,
+            "roc_auc": 0.6985
+        },
+        "Explosion": {
+            "pr_auc": 0.7954,
+            "roc_auc": 0.7792
+        },
+        "Fighting": {
+            "pr_auc": 0.9385,
+            "roc_auc": 0.9066
+        },
+        "Fire": {
+            "pr_auc": 0.882,
+            "roc_auc": 0.7283
+        },
+        "Object Falling": {
+            "pr_auc": 0.5291,
+            "roc_auc": 0.4966
+        },
+        "People Falling": {
+            "pr_auc": 0.4465,
+            "roc_auc": 0.4993
+        },
+        "Robbery": {
+            "pr_auc": 0.8823,
+            "roc_auc": 0.697
+        },
+        "Shooting": {
+            "pr_auc": 0.7426,
+            "roc_auc": 0.6871
+        },
+        "Traffic Accident": {
+            "pr_auc": 0.5815,
+            "roc_auc": 0.6598
+        },
+        "Vandalism": {
+            "pr_auc": 0.8447,
+            "roc_auc": 0.8734
+        },
+        "Water Incident": {
+            "pr_auc": 0.9152,
+            "roc_auc": 0.6412
+        }
+    },
+    "args_dict": {
+        "video_root": "/root/autodl-fs/lwl/data/MSAD_test/test_videos/",
+        "scores_json": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1/refine_maxf64_msad_prior_q_Below is a.json",
+        "ense_scores_json": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_fine/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1/refine_maxf64_msad_prior_q_Below is a.json",
+        "similarity_pkl": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_coarse/sim_maxf64_msad_prior_q_Below is a.pkl",
+        "similarity_type": "VxV",
+        "beta": -0.4,
+        "frame_interval": 16,
+        "normal_label": 0,
+        "without_labels": false,
+        "visualize": false,
+        "video_fps": "auto",
+        "annotationfile_path": "/root/autodl-fs/lwl/data/MSAD_test/anomaly_test.txt",
+        "temporal_annotation_file": "/root/autodl-fs/lwl/data/MSAD_test/Temporal_Anomaly_Annotation_for_Testing_Videos.txt",
+        "output_dir": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1_ENSE_EX234R50ES0.5_peak_dfs_kmeans_1_0.3_LV7Q_msad_prior_q_fine_DRDQ14_think_VxV10_nn10_tao0.1_beat-0.4",
+        "split_pred": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/pred.json",
+        "ense_similarity_pkl": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_fine/sim_maxf64_msad_prior_q_Below is a.pkl",
+        "ense_score_output_json": "/root/autodl-tmp/data/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.3/LLaVA-Video-7B-Qwen2_msad_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1_ENSE_EX234R50ES0.5_peak_dfs_kmeans_1_0.3_LV7Q_msad_prior_q_fine_DRDQ14_think_VxV10_nn10_tao0.1_beat-0.4/ense_refine_maxf64_msad_prior_q_Below is a.json"
+    }
+}

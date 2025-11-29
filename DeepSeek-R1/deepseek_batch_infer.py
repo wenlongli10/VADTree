@@ -109,7 +109,7 @@ def parse_args():
     assert args.score_summary==True, 'Currently only support scoring the temporal summaries!'
     args.output_summary_json = args.video_clip_summary_json
 
-    vadtree_path = os.path.dirname(__file__)
+    vadtree_path = os.path.dirname(os.path.dirname(__file__))
     if 'UCF' in args.output_summary_json:
         args.annotationfile_path = f'{vadtree_path}/dataset_info/ucf_crime/annotations/anomaly_test.txt'
     elif 'XD' in args.output_summary_json:

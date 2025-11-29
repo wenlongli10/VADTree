@@ -52,7 +52,7 @@ def parse_args():
             )
     parser.add_argument("--json_path", type=str,
         default = '../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4'
-                  '/dfs_coarse_sences'
+                  '/dfs_coarse_scenes'
                   '.json',
         help="Path to the JSON file containing HGTree results (coarse or fine)."
     )

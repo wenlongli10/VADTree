@@ -1,0 +1,5474 @@
+{
+    "Assault_2.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                134
+            ],
+            [
+                134,
+                137
+            ],
+            [
+                137,
+                173
+            ],
+            [
+                173,
+                235
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 236,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_4.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                30
+            ],
+            [
+                30,
+                356
+            ],
+            [
+                356,
+                514
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 515,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_7.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                63
+            ],
+            [
+                63,
+                373
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 374,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_8.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                153
+            ],
+            [
+                153,
+                355
+            ],
+            [
+                355,
+                864
+            ],
+            [
+                864,
+                867
+            ],
+            [
+                867,
+                984
+            ],
+            [
+                984,
+                990
+            ],
+            [
+                990,
+                1030
+            ]
+        ],
+        "fps": 29.9846632155746,
+        "frames": 1031,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_11.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                300
+            ],
+            [
+                300,
+                418
+            ],
+            [
+                418,
+                583
+            ],
+            [
+                583,
+                586
+            ],
+            [
+                586,
+                727
+            ],
+            [
+                727,
+                808
+            ],
+            [
+                808,
+                815
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 816,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_13.mp4": {
+        "scenes": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                110
+            ],
+            [
+                110,
+                290
+            ],
+            [
+                290,
+                389
+            ],
+            [
+                389,
+                613
+            ],
+            [
+                613,
+                858
+            ]
+        ],
+        "fps": 29.0,
+        "frames": 859,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_14.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                66
+            ],
+            [
+                66,
+                257
+            ],
+            [
+                257,
+                284
+            ],
+            [
+                284,
+                493
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 494,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Assault_15.mp4": {
+        "scenes": [
+            [
+                0,
+                24
+            ],
+            [
+                24,
+                172
+            ],
+            [
+                172,
+                182
+            ],
+            [
+                182,
+                185
+            ],
+            [
+                185,
+                206
+            ],
+            [
+                206,
+                209
+            ],
+            [
+                209,
+                264
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 265,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_1.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                44
+            ],
+            [
+                44,
+                72
+            ]
+        ],
+        "fps": 6.0,
+        "frames": 73,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_3.mp4": {
+        "scenes": [
+            [
+                0,
+                40
+            ],
+            [
+                40,
+                68
+            ],
+            [
+                68,
+                90
+            ],
+            [
+                90,
+                93
+            ]
+        ],
+        "fps": 6.0,
+        "frames": 94,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_5.mp4": {
+        "scenes": [
+            [
+                0,
+                60
+            ],
+            [
+                60,
+                252
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 253,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_7.mp4": {
+        "scenes": [
+            [
+                0,
+                96
+            ],
+            [
+                96,
+                356
+            ],
+            [
+                356,
+                417
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 418,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_9.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                205
+            ],
+            [
+                205,
+                380
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 381,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_11.mp4": {
+        "scenes": [
+            [
+                0,
+                108
+            ],
+            [
+                108,
+                538
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 539,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_13.mp4": {
+        "scenes": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                47
+            ],
+            [
+                47,
+                253
+            ],
+            [
+                253,
+                308
+            ],
+            [
+                308,
+                677
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 678,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Explosion_15.mp4": {
+        "scenes": [
+            [
+                0,
+                23
+            ],
+            [
+                23,
+                124
+            ],
+            [
+                124,
+                148
+            ],
+            [
+                148,
+                273
+            ],
+            [
+                273,
+                392
+            ],
+            [
+                392,
+                395
+            ],
+            [
+                395,
+                700
+            ],
+            [
+                700,
+                1031
+            ],
+            [
+                1031,
+                1057
+            ],
+            [
+                1057,
+                1060
+            ],
+            [
+                1060,
+                1197
+            ],
+            [
+                1197,
+                1305
+            ]
+        ],
+        "fps": 29.0,
+        "frames": 1306,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_3.mp4": {
+        "scenes": [
+            [
+                0,
+                105
+            ],
+            [
+                105,
+                106
+            ],
+            [
+                106,
+                107
+            ],
+            [
+                107,
+                115
+            ],
+            [
+                115,
+                155
+            ],
+            [
+                155,
+                173
+            ],
+            [
+                173,
+                174
+            ],
+            [
+                174,
+                233
+            ],
+            [
+                233,
+                340
+            ],
+            [
+                340,
+                343
+            ]
+        ],
+        "fps": 10.0,
+        "frames": 344,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_4.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                250
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 251,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_7.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                48
+            ],
+            [
+                48,
+                124
+            ],
+            [
+                124,
+                157
+            ],
+            [
+                157,
+                202
+            ],
+            [
+                202,
+                205
+            ],
+            [
+                205,
+                245
+            ],
+            [
+                245,
+                287
+            ],
+            [
+                287,
+                318
+            ],
+            [
+                318,
+                369
+            ],
+            [
+                369,
+                372
+            ],
+            [
+                372,
+                411
+            ],
+            [
+                411,
+                421
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 422,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_10.mp4": {
+        "scenes": [
+            [
+                0,
+                29
+            ],
+            [
+                29,
+                75
+            ],
+            [
+                75,
+                213
+            ],
+            [
+                213,
+                315
+            ],
+            [
+                315,
+                367
+            ],
+            [
+                367,
+                432
+            ],
+            [
+                432,
+                478
+            ],
+            [
+                478,
+                531
+            ],
+            [
+                531,
+                566
+            ],
+            [
+                566,
+                578
+            ]
+        ],
+        "fps": 29.0,
+        "frames": 579,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_12.mp4": {
+        "scenes": [
+            [
+                0,
+                321
+            ],
+            [
+                321,
+                345
+            ],
+            [
+                345,
+                348
+            ],
+            [
+                348,
+                520
+            ],
+            [
+                520,
+                523
+            ],
+            [
+                523,
+                598
+            ],
+            [
+                598,
+                688
+            ],
+            [
+                688,
+                742
+            ],
+            [
+                742,
+                746
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 747,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fighting_13.mp4": {
+        "scenes": [
+            [
+                0,
+                72
+            ],
+            [
+                72,
+                160
+            ],
+            [
+                160,
+                929
+            ],
+            [
+                929,
+                1074
+            ],
+            [
+                1074,
+                1545
+            ],
+            [
+                1545,
+                1565
+            ],
+            [
+                1565,
+                1568
+            ],
+            [
+                1568,
+                1588
+            ],
+            [
+                1588,
+                1726
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 1727,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_2.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                30
+            ],
+            [
+                30,
+                210
+            ],
+            [
+                210,
+                214
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 215,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_4.mp4": {
+        "scenes": [
+            [
+                0,
+                540
+            ],
+            [
+                540,
+                556
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 557,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_6.mp4": {
+        "scenes": [
+            [
+                0,
+                124
+            ],
+            [
+                124,
+                243
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 244,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_8.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                18
+            ],
+            [
+                18,
+                21
+            ],
+            [
+                21,
+                265
+            ],
+            [
+                265,
+                268
+            ],
+            [
+                268,
+                299
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 300,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_11.mp4": {
+        "scenes": [
+            [
+                0,
+                182
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 183,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_12.mp4": {
+        "scenes": [
+            [
+                0,
+                90
+            ],
+            [
+                90,
+                192
+            ],
+            [
+                192,
+                250
+            ],
+            [
+                250,
+                252
+            ],
+            [
+                252,
+                465
+            ],
+            [
+                465,
+                492
+            ],
+            [
+                492,
+                650
+            ],
+            [
+                650,
+                1060
+            ],
+            [
+                1060,
+                2886
+            ],
+            [
+                2886,
+                2921
+            ],
+            [
+                2921,
+                2946
+            ],
+            [
+                2946,
+                3179
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 3180,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_15.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                604
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 605,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_16.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                746
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 747,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_20.mp4": {
+        "scenes": [
+            [
+                0,
+                302
+            ],
+            [
+                302,
+                433
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 434,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_21.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                163
+            ],
+            [
+                163,
+                312
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 313,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_22.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                6,
+                123
+            ],
+            [
+                123,
+                438
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 439,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Fire_24.mp4": {
+        "scenes": [
+            [
+                0,
+                314
+            ],
+            [
+                314,
+                384
+            ],
+            [
+                384,
+                493
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 494,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_3.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                129
+            ],
+            [
+                129,
+                132
+            ],
+            [
+                132,
+                325
+            ],
+            [
+                325,
+                876
+            ],
+            [
+                876,
+                879
+            ],
+            [
+                879,
+                889
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 890,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_4.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                229
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 230,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_7.mp4": {
+        "scenes": [
+            [
+                0,
+                36
+            ],
+            [
+                36,
+                39
+            ],
+            [
+                39,
+                305
+            ],
+            [
+                305,
+                393
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 394,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_9.mp4": {
+        "scenes": [
+            [
+                0,
+                54
+            ],
+            [
+                54,
+                304
+            ],
+            [
+                304,
+                307
+            ],
+            [
+                307,
+                397
+            ],
+            [
+                397,
+                481
+            ],
+            [
+                481,
+                548
+            ],
+            [
+                548,
+                746
+            ],
+            [
+                746,
+                752
+            ],
+            [
+                752,
+                776
+            ],
+            [
+                776,
+                779
+            ],
+            [
+                779,
+                1054
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 1055,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_11.mp4": {
+        "scenes": [
+            [
+                0,
+                12
+            ],
+            [
+                12,
+                154
+            ],
+            [
+                154,
+                187
+            ],
+            [
+                187,
+                250
+            ],
+            [
+                250,
+                326
+            ],
+            [
+                326,
+                396
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 397,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_14.mp4": {
+        "scenes": [
+            [
+                0,
+                209
+            ],
+            [
+                209,
+                394
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 395,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_15.mp4": {
+        "scenes": [
+            [
+                0,
+                20
+            ],
+            [
+                20,
+                22
+            ],
+            [
+                22,
+                484
+            ],
+            [
+                484,
+                572
+            ],
+            [
+                572,
+                574
+            ],
+            [
+                574,
+                595
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 596,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_17.mp4": {
+        "scenes": [
+            [
+                0,
+                63
+            ],
+            [
+                63,
+                247
+            ],
+            [
+                247,
+                380
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 381,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_19.mp4": {
+        "scenes": [
+            [
+                0,
+                31
+            ],
+            [
+                31,
+                85
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 86,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Object_falling_21.mp4": {
+        "scenes": [
+            [
+                0,
+                12
+            ],
+            [
+                12,
+                51
+            ],
+            [
+                51,
+                114
+            ],
+            [
+                114,
+                120
+            ],
+            [
+                120,
+                174
+            ],
+            [
+                174,
+                180
+            ],
+            [
+                180,
+                376
+            ],
+            [
+                376,
+                446
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 447,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_1.mp4": {
+        "scenes": [
+            [
+                0,
+                211
+            ],
+            [
+                211,
+                327
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 328,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_3.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                42
+            ],
+            [
+                42,
+                73
+            ],
+            [
+                73,
+                134
+            ],
+            [
+                134,
+                235
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 236,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_5.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                6,
+                81
+            ],
+            [
+                81,
+                84
+            ],
+            [
+                84,
+                209
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 210,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_7.mp4": {
+        "scenes": [
+            [
+                0,
+                33
+            ],
+            [
+                33,
+                66
+            ],
+            [
+                66,
+                97
+            ],
+            [
+                97,
+                121
+            ],
+            [
+                121,
+                273
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 274,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_10.mp4": {
+        "scenes": [
+            [
+                0,
+                69
+            ],
+            [
+                69,
+                106
+            ],
+            [
+                106,
+                152
+            ],
+            [
+                152,
+                194
+            ],
+            [
+                194,
+                197
+            ],
+            [
+                197,
+                261
+            ],
+            [
+                261,
+                301
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 302,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_11.mp4": {
+        "scenes": [
+            [
+                0,
+                72
+            ],
+            [
+                72,
+                167
+            ],
+            [
+                167,
+                173
+            ],
+            [
+                173,
+                225
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 226,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_14.mp4": {
+        "scenes": [
+            [
+                0,
+                78
+            ],
+            [
+                78,
+                181
+            ],
+            [
+                181,
+                184
+            ],
+            [
+                184,
+                224
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 225,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_16.mp4": {
+        "scenes": [
+            [
+                0,
+                100
+            ],
+            [
+                100,
+                103
+            ],
+            [
+                103,
+                234
+            ],
+            [
+                234,
+                286
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 287,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_18.mp4": {
+        "scenes": [
+            [
+                0,
+                33
+            ],
+            [
+                33,
+                78
+            ],
+            [
+                78,
+                81
+            ],
+            [
+                81,
+                232
+            ],
+            [
+                232,
+                281
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 282,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_20.mp4": {
+        "scenes": [
+            [
+                0,
+                81
+            ],
+            [
+                81,
+                238
+            ],
+            [
+                238,
+                251
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 252,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_23.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                33
+            ],
+            [
+                33,
+                244
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 245,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_24.mp4": {
+        "scenes": [
+            [
+                0,
+                70
+            ],
+            [
+                70,
+                133
+            ],
+            [
+                133,
+                210
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 211,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_25.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                233
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 234,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_26.mp4": {
+        "scenes": [
+            [
+                0,
+                85
+            ],
+            [
+                85,
+                225
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 226,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_28.mp4": {
+        "scenes": [
+            [
+                0,
+                115
+            ],
+            [
+                115,
+                231
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 232,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_31.mp4": {
+        "scenes": [
+            [
+                0,
+                84
+            ],
+            [
+                84,
+                199
+            ],
+            [
+                199,
+                319
+            ],
+            [
+                319,
+                322
+            ],
+            [
+                322,
+                344
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 345,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_32.mp4": {
+        "scenes": [
+            [
+                0,
+                9
+            ],
+            [
+                9,
+                12
+            ],
+            [
+                12,
+                42
+            ],
+            [
+                42,
+                120
+            ],
+            [
+                120,
+                468
+            ],
+            [
+                468,
+                580
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 581,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_36.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                100
+            ],
+            [
+                100,
+                137
+            ],
+            [
+                137,
+                192
+            ],
+            [
+                192,
+                232
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 233,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_37.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                127
+            ],
+            [
+                127,
+                295
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 296,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_38.mp4": {
+        "scenes": [
+            [
+                0,
+                51
+            ],
+            [
+                51,
+                85
+            ],
+            [
+                85,
+                88
+            ],
+            [
+                88,
+                91
+            ],
+            [
+                91,
+                250
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 251,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_40.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                79
+            ],
+            [
+                79,
+                271
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 272,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "People_falling_42.mp4": {
+        "scenes": [
+            [
+                0,
+                6
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                9,
+                451
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 452,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_2.mp4": {
+        "scenes": [
+            [
+                0,
+                501
+            ],
+            [
+                501,
+                504
+            ],
+            [
+                504,
+                744
+            ],
+            [
+                744,
+                792
+            ],
+            [
+                792,
+                825
+            ],
+            [
+                825,
+                882
+            ],
+            [
+                882,
+                1239
+            ]
+        ],
+        "fps": 29.95,
+        "frames": 1240,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_4.mp4": {
+        "scenes": [
+            [
+                0,
+                68
+            ],
+            [
+                68,
+                236
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 237,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_7.mp4": {
+        "scenes": [
+            [
+                0,
+                22
+            ],
+            [
+                22,
+                42
+            ],
+            [
+                42,
+                65
+            ],
+            [
+                65,
+                102
+            ],
+            [
+                102,
+                105
+            ],
+            [
+                105,
+                413
+            ],
+            [
+                413,
+                429
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 430,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_8.mp4": {
+        "scenes": [
+            [
+                0,
+                241
+            ],
+            [
+                241,
+                423
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 424,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_11.mp4": {
+        "scenes": [
+            [
+                0,
+                42
+            ],
+            [
+                42,
+                45
+            ],
+            [
+                45,
+                213
+            ],
+            [
+                213,
+                349
+            ],
+            [
+                349,
+                505
+            ],
+            [
+                505,
+                536
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 537,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_13.mp4": {
+        "scenes": [
+            [
+                0,
+                42
+            ],
+            [
+                42,
+                45
+            ],
+            [
+                45,
+                157
+            ],
+            [
+                157,
+                193
+            ],
+            [
+                193,
+                278
+            ],
+            [
+                278,
+                460
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 461,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_15.mp4": {
+        "scenes": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                333
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 334,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_17.mp4": {
+        "scenes": [
+            [
+                0,
+                39
+            ],
+            [
+                39,
+                42
+            ],
+            [
+                42,
+                135
+            ],
+            [
+                135,
+                234
+            ],
+            [
+                234,
+                342
+            ],
+            [
+                342,
+                420
+            ],
+            [
+                420,
+                453
+            ],
+            [
+                453,
+                502
+            ]
+        ],
+        "fps": 29.87,
+        "frames": 503,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_19.mp4": {
+        "scenes": [
+            [
+                0,
+                30
+            ],
+            [
+                30,
+                237
+            ],
+            [
+                237,
+                649
+            ],
+            [
+                649,
+                934
+            ],
+            [
+                934,
+                1223
+            ],
+            [
+                1223,
+                1728
+            ],
+            [
+                1728,
+                1824
+            ],
+            [
+                1824,
+                1827
+            ],
+            [
+                1827,
+                1884
+            ],
+            [
+                1884,
+                1944
+            ],
+            [
+                1944,
+                1953
+            ],
+            [
+                1953,
+                1957
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 1958,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_21.mp4": {
+        "scenes": [
+            [
+                0,
+                102
+            ],
+            [
+                102,
+                183
+            ],
+            [
+                183,
+                273
+            ],
+            [
+                273,
+                303
+            ],
+            [
+                303,
+                306
+            ],
+            [
+                306,
+                339
+            ],
+            [
+                339,
+                388
+            ],
+            [
+                388,
+                436
+            ],
+            [
+                436,
+                532
+            ],
+            [
+                532,
+                752
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 753,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_23.mp4": {
+        "scenes": [
+            [
+                0,
+                139
+            ],
+            [
+                139,
+                225
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 226,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_27.mp4": {
+        "scenes": [
+            [
+                0,
+                93
+            ],
+            [
+                93,
+                135
+            ],
+            [
+                135,
+                190
+            ],
+            [
+                190,
+                223
+            ],
+            [
+                223,
+                271
+            ],
+            [
+                271,
+                338
+            ],
+            [
+                338,
+                562
+            ]
+        ],
+        "fps": 30.0005328691451,
+        "frames": 563,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_28.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                174
+            ],
+            [
+                174,
+                283
+            ],
+            [
+                283,
+                672
+            ],
+            [
+                672,
+                675
+            ],
+            [
+                675,
+                715
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 716,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Robbery_29.mp4": {
+        "scenes": [
+            [
+                0,
+                94
+            ],
+            [
+                94,
+                97
+            ],
+            [
+                97,
+                157
+            ],
+            [
+                157,
+                218
+            ],
+            [
+                218,
+                319
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 320,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_2.mp4": {
+        "scenes": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                5,
+                236
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 237,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_4.mp4": {
+        "scenes": [
+            [
+                0,
+                12
+            ],
+            [
+                12,
+                15
+            ],
+            [
+                15,
+                228
+            ],
+            [
+                228,
+                283
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 284,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_5.mp4": {
+        "scenes": [
+            [
+                0,
+                5
+            ],
+            [
+                5,
+                102
+            ],
+            [
+                102,
+                142
+            ],
+            [
+                142,
+                176
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 177,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_6.mp4": {
+        "scenes": [
+            [
+                0,
+                65
+            ],
+            [
+                65,
+                222
+            ],
+            [
+                222,
+                308
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 309,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_10.mp4": {
+        "scenes": [
+            [
+                0,
+                426
+            ],
+            [
+                426,
+                902
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 903,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_12.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                183
+            ],
+            [
+                183,
+                223
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 224,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_13.mp4": {
+        "scenes": [
+            [
+                0,
+                321
+            ],
+            [
+                321,
+                324
+            ],
+            [
+                324,
+                412
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 413,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_16.mp4": {
+        "scenes": [
+            [
+                0,
+                99
+            ],
+            [
+                99,
+                242
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 243,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Shooting_17.mp4": {
+        "scenes": [
+            [
+                0,
+                500
+            ],
+            [
+                500,
+                504
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 505,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_2.mp4": {
+        "scenes": [
+            [
+                0,
+                171
+            ],
+            [
+                171,
+                241
+            ],
+            [
+                241,
+                247
+            ],
+            [
+                247,
+                365
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 366,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_4.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                30
+            ],
+            [
+                30,
+                335
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 336,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_7.mp4": {
+        "scenes": [
+            [
+                0,
+                90
+            ],
+            [
+                90,
+                121
+            ],
+            [
+                121,
+                344
+            ],
+            [
+                344,
+                357
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 358,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_8.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                6,
+                108
+            ],
+            [
+                108,
+                111
+            ],
+            [
+                111,
+                353
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 354,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_11.mp4": {
+        "scenes": [
+            [
+                0,
+                73
+            ],
+            [
+                73,
+                292
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 293,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_12.mp4": {
+        "scenes": [
+            [
+                0,
+                171
+            ],
+            [
+                171,
+                386
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 387,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_15.mp4": {
+        "scenes": [
+            [
+                0,
+                123
+            ],
+            [
+                123,
+                359
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 360,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_16.mp4": {
+        "scenes": [
+            [
+                0,
+                109
+            ],
+            [
+                109,
+                252
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 253,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_19.mp4": {
+        "scenes": [
+            [
+                0,
+                36
+            ],
+            [
+                36,
+                234
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 235,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_20.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                430
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 431,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_21.mp4": {
+        "scenes": [
+            [
+                0,
+                418
+            ],
+            [
+                418,
+                632
+            ],
+            [
+                632,
+                693
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 694,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_23.mp4": {
+        "scenes": [
+            [
+                0,
+                400
+            ],
+            [
+                400,
+                449
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 450,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_25.mp4": {
+        "scenes": [
+            [
+                0,
+                15
+            ],
+            [
+                15,
+                273
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 274,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_26.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                128
+            ],
+            [
+                128,
+                195
+            ],
+            [
+                195,
+                202
+            ]
+        ],
+        "fps": 30.001477905315532,
+        "frames": 203,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_27.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                201
+            ],
+            [
+                201,
+                232
+            ]
+        ],
+        "fps": 30.001287608910253,
+        "frames": 233,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_31.mp4": {
+        "scenes": [
+            [
+                0,
+                84
+            ],
+            [
+                84,
+                90
+            ],
+            [
+                90,
+                274
+            ],
+            [
+                274,
+                343
+            ],
+            [
+                343,
+                482
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 483,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_32.mp4": {
+        "scenes": [
+            [
+                0,
+                151
+            ],
+            [
+                151,
+                388
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 389,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_35.mp4": {
+        "scenes": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                190
+            ],
+            [
+                190,
+                207
+            ],
+            [
+                207,
+                337
+            ],
+            [
+                337,
+                339
+            ],
+            [
+                339,
+                404
+            ]
+        ],
+        "fps": 15.0,
+        "frames": 405,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_36.mp4": {
+        "scenes": [
+            [
+                0,
+                12
+            ],
+            [
+                12,
+                15
+            ],
+            [
+                15,
+                249
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 250,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Traffic_accident_39.mp4": {
+        "scenes": [
+            [
+                0,
+                110
+            ],
+            [
+                110,
+                502
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 503,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_1.mp4": {
+        "scenes": [
+            [
+                0,
+                746
+            ],
+            [
+                746,
+                776
+            ],
+            [
+                776,
+                1002
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 1003,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_3.mp4": {
+        "scenes": [
+            [
+                0,
+                21
+            ],
+            [
+                21,
+                51
+            ],
+            [
+                51,
+                93
+            ],
+            [
+                93,
+                187
+            ],
+            [
+                187,
+                406
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 407,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_4.mp4": {
+        "scenes": [
+            [
+                0,
+                246
+            ],
+            [
+                246,
+                526
+            ],
+            [
+                526,
+                649
+            ],
+            [
+                649,
+                653
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 654,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_6.mp4": {
+        "scenes": [
+            [
+                0,
+                42
+            ],
+            [
+                42,
+                75
+            ],
+            [
+                75,
+                181
+            ],
+            [
+                181,
+                377
+            ],
+            [
+                377,
+                486
+            ],
+            [
+                486,
+                543
+            ],
+            [
+                543,
+                546
+            ],
+            [
+                546,
+                622
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 623,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_9.mp4": {
+        "scenes": [
+            [
+                0,
+                367
+            ],
+            [
+                367,
+                421
+            ],
+            [
+                421,
+                454
+            ],
+            [
+                454,
+                461
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 462,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Vandalism_12.mp4": {
+        "scenes": [
+            [
+                0,
+                78
+            ],
+            [
+                78,
+                81
+            ],
+            [
+                81,
+                227
+            ],
+            [
+                227,
+                357
+            ],
+            [
+                357,
+                360
+            ],
+            [
+                360,
+                382
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 383,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Water_incident_2.mp4": {
+        "scenes": [
+            [
+                0,
+                78
+            ],
+            [
+                78,
+                106
+            ],
+            [
+                106,
+                136
+            ],
+            [
+                136,
+                240
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 241,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Water_incident_4.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                541
+            ],
+            [
+                541,
+                758
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 759,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Water_incident_6.mp4": {
+        "scenes": [
+            [
+                0,
+                105
+            ],
+            [
+                105,
+                304
+            ],
+            [
+                304,
+                355
+            ],
+            [
+                355,
+                711
+            ],
+            [
+                711,
+                778
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 779,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Water_incident_8.mp4": {
+        "scenes": [
+            [
+                0,
+                444
+            ],
+            [
+                444,
+                593
+            ]
+        ],
+        "fps": 30.00050505900773,
+        "frames": 594,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "Water_incident_10.mp4": {
+        "scenes": [
+            [
+                0,
+                664
+            ],
+            [
+                664,
+                989
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 990,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_1.mp4": {
+        "scenes": [
+            [
+                0,
+                9
+            ],
+            [
+                9,
+                12
+            ],
+            [
+                12,
+                268
+            ],
+            [
+                268,
+                669
+            ],
+            [
+                669,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_2.mp4": {
+        "scenes": [
+            [
+                0,
+                78
+            ],
+            [
+                78,
+                759
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 760,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_3.mp4": {
+        "scenes": [
+            [
+                0,
+                162
+            ],
+            [
+                162,
+                226
+            ]
+        ],
+        "fps": 25.0,
+        "frames": 227,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_4.mp4": {
+        "scenes": [
+            [
+                0,
+                21
+            ],
+            [
+                21,
+                111
+            ],
+            [
+                111,
+                357
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 358,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_5.mp4": {
+        "scenes": [
+            [
+                0,
+                99
+            ],
+            [
+                99,
+                225
+            ]
+        ],
+        "fps": 15.0,
+        "frames": 226,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_6.mp4": {
+        "scenes": [
+            [
+                0,
+                399
+            ],
+            [
+                399,
+                415
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 416,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_7.mp4": {
+        "scenes": [
+            [
+                0,
+                6
+            ],
+            [
+                6,
+                291
+            ]
+        ],
+        "fps": 29.97,
+        "frames": 292,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_8.mp4": {
+        "scenes": [
+            [
+                0,
+                392
+            ],
+            [
+                392,
+                435
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 436,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_9.mp4": {
+        "scenes": [
+            [
+                0,
+                75
+            ],
+            [
+                75,
+                78
+            ],
+            [
+                78,
+                523
+            ]
+        ],
+        "fps": 29.97002997002997,
+        "frames": 524,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_10.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_11.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                270
+            ],
+            [
+                270,
+                595
+            ],
+            [
+                595,
+                601
+            ],
+            [
+                601,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_12.mp4": {
+        "scenes": [
+            [
+                0,
+                132
+            ],
+            [
+                132,
+                325
+            ],
+            [
+                325,
+                751
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 752,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_13.mp4": {
+        "scenes": [
+            [
+                0,
+                54
+            ],
+            [
+                54,
+                186
+            ],
+            [
+                186,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_14.mp4": {
+        "scenes": [
+            [
+                0,
+                186
+            ],
+            [
+                186,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_15.mp4": {
+        "scenes": [
+            [
+                0,
+                48
+            ],
+            [
+                48,
+                78
+            ],
+            [
+                78,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_16.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                631
+            ],
+            [
+                631,
+                814
+            ],
+            [
+                814,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_17.mp4": {
+        "scenes": [
+            [
+                0,
+                297
+            ],
+            [
+                297,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_18.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                871
+            ],
+            [
+                871,
+                874
+            ],
+            [
+                874,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_19.mp4": {
+        "scenes": [
+            [
+                0,
+                174
+            ],
+            [
+                174,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_20.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_21.mp4": {
+        "scenes": [
+            [
+                0,
+                48
+            ],
+            [
+                48,
+                189
+            ],
+            [
+                189,
+                484
+            ],
+            [
+                484,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_22.mp4": {
+        "scenes": [
+            [
+                0,
+                42
+            ],
+            [
+                42,
+                48
+            ],
+            [
+                48,
+                331
+            ],
+            [
+                331,
+                516
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 517,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_23.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                225
+            ],
+            [
+                225,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_24.mp4": {
+        "scenes": [
+            [
+                0,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_25.mp4": {
+        "scenes": [
+            [
+                0,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_26.mp4": {
+        "scenes": [
+            [
+                0,
+                997
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 998,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_27.mp4": {
+        "scenes": [
+            [
+                0,
+                138
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 139,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_28.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_29.mp4": {
+        "scenes": [
+            [
+                0,
+                387
+            ],
+            [
+                387,
+                883
+            ],
+            [
+                883,
+                896
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 897,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_30.mp4": {
+        "scenes": [
+            [
+                0,
+                321
+            ],
+            [
+                321,
+                487
+            ],
+            [
+                487,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_31.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_32.mp4": {
+        "scenes": [
+            [
+                0,
+                379
+            ],
+            [
+                379,
+                382
+            ],
+            [
+                382,
+                679
+            ],
+            [
+                679,
+                712
+            ],
+            [
+                712,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_33.mp4": {
+        "scenes": [
+            [
+                0,
+                644
+            ],
+            [
+                644,
+                747
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 748,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_34.mp4": {
+        "scenes": [
+            [
+                0,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_35.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_36.mp4": {
+        "scenes": [
+            [
+                0,
+                15
+            ],
+            [
+                15,
+                390
+            ],
+            [
+                390,
+                393
+            ],
+            [
+                393,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_37.mp4": {
+        "scenes": [
+            [
+                0,
+                354
+            ],
+            [
+                354,
+                697
+            ],
+            [
+                697,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_38.mp4": {
+        "scenes": [
+            [
+                0,
+                652
+            ],
+            [
+                652,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_39.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                225
+            ],
+            [
+                225,
+                300
+            ],
+            [
+                300,
+                400
+            ],
+            [
+                400,
+                637
+            ],
+            [
+                637,
+                640
+            ],
+            [
+                640,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_40.mp4": {
+        "scenes": [
+            [
+                0,
+                775
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 776,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_41.mp4": {
+        "scenes": [
+            [
+                0,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_42.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                235
+            ],
+            [
+                235,
+                304
+            ],
+            [
+                304,
+                307
+            ],
+            [
+                307,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_43.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_44.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_45.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_46.mp4": {
+        "scenes": [
+            [
+                0,
+                625
+            ],
+            [
+                625,
+                628
+            ],
+            [
+                628,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_47.mp4": {
+        "scenes": [
+            [
+                0,
+                419
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 420,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_48.mp4": {
+        "scenes": [
+            [
+                0,
+                256
+            ],
+            [
+                256,
+                898
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 899,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_49.mp4": {
+        "scenes": [
+            [
+                0,
+                653
+            ],
+            [
+                653,
+                683
+            ],
+            [
+                683,
+                750
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 751,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_50.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_51.mp4": {
+        "scenes": [
+            [
+                0,
+                388
+            ],
+            [
+                388,
+                391
+            ],
+            [
+                391,
+                449
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 450,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_52.mp4": {
+        "scenes": [
+            [
+                0,
+                751
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 752,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_53.mp4": {
+        "scenes": [
+            [
+                0,
+                85
+            ],
+            [
+                85,
+                89
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 90,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_54.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_55.mp4": {
+        "scenes": [
+            [
+                0,
+                865
+            ],
+            [
+                865,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_56.mp4": {
+        "scenes": [
+            [
+                0,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_57.mp4": {
+        "scenes": [
+            [
+                0,
+                153
+            ],
+            [
+                153,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_58.mp4": {
+        "scenes": [
+            [
+                0,
+                847
+            ],
+            [
+                847,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_59.mp4": {
+        "scenes": [
+            [
+                0,
+                150
+            ],
+            [
+                150,
+                312
+            ],
+            [
+                312,
+                571
+            ],
+            [
+                571,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_60.mp4": {
+        "scenes": [
+            [
+                0,
+                937
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 938,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_61.mp4": {
+        "scenes": [
+            [
+                0,
+                454
+            ],
+            [
+                454,
+                828
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 829,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_62.mp4": {
+        "scenes": [
+            [
+                0,
+                575
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 576,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_63.mp4": {
+        "scenes": [
+            [
+                0,
+                51
+            ],
+            [
+                51,
+                222
+            ],
+            [
+                222,
+                225
+            ],
+            [
+                225,
+                451
+            ],
+            [
+                451,
+                454
+            ],
+            [
+                454,
+                661
+            ],
+            [
+                661,
+                688
+            ],
+            [
+                688,
+                691
+            ],
+            [
+                691,
+                751
+            ],
+            [
+                751,
+                877
+            ],
+            [
+                877,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_64.mp4": {
+        "scenes": [
+            [
+                0,
+                81
+            ],
+            [
+                81,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_65.mp4": {
+        "scenes": [
+            [
+                0,
+                801
+            ],
+            [
+                801,
+                804
+            ],
+            [
+                804,
+                807
+            ],
+            [
+                807,
+                898
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 899,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_66.mp4": {
+        "scenes": [
+            [
+                0,
+                324
+            ],
+            [
+                324,
+                351
+            ],
+            [
+                351,
+                354
+            ],
+            [
+                354,
+                769
+            ],
+            [
+                769,
+                883
+            ],
+            [
+                883,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_67.mp4": {
+        "scenes": [
+            [
+                0,
+                352
+            ],
+            [
+                352,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_68.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_69.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_70.mp4": {
+        "scenes": [
+            [
+                0,
+                416
+            ],
+            [
+                416,
+                751
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 752,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_71.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_72.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_73.mp4": {
+        "scenes": [
+            [
+                0,
+                948
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 949,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_74.mp4": {
+        "scenes": [
+            [
+                0,
+                865
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 866,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_75.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_76.mp4": {
+        "scenes": [
+            [
+                0,
+                424
+            ],
+            [
+                424,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_77.mp4": {
+        "scenes": [
+            [
+                0,
+                147
+            ],
+            [
+                147,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_78.mp4": {
+        "scenes": [
+            [
+                0,
+                27
+            ],
+            [
+                27,
+                126
+            ],
+            [
+                126,
+                482
+            ],
+            [
+                482,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_79.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                380
+            ],
+            [
+                380,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_80.mp4": {
+        "scenes": [
+            [
+                0,
+                30
+            ],
+            [
+                30,
+                72
+            ],
+            [
+                72,
+                75
+            ],
+            [
+                75,
+                192
+            ],
+            [
+                192,
+                898
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 899,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_81.mp4": {
+        "scenes": [
+            [
+                0,
+                742
+            ],
+            [
+                742,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_82.mp4": {
+        "scenes": [
+            [
+                0,
+                643
+            ],
+            [
+                643,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_83.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                42
+            ],
+            [
+                42,
+                75
+            ],
+            [
+                75,
+                132
+            ],
+            [
+                132,
+                159
+            ],
+            [
+                159,
+                354
+            ],
+            [
+                354,
+                478
+            ],
+            [
+                478,
+                481
+            ],
+            [
+                481,
+                715
+            ],
+            [
+                715,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_84.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                751
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 752,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_85.mp4": {
+        "scenes": [
+            [
+                0,
+                539
+            ],
+            [
+                539,
+                747
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 748,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_86.mp4": {
+        "scenes": [
+            [
+                0,
+                217
+            ],
+            [
+                217,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_87.mp4": {
+        "scenes": [
+            [
+                0,
+                117
+            ],
+            [
+                117,
+                222
+            ],
+            [
+                222,
+                357
+            ],
+            [
+                357,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_88.mp4": {
+        "scenes": [
+            [
+                0,
+                747
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 748,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_89.mp4": {
+        "scenes": [
+            [
+                0,
+                87
+            ],
+            [
+                87,
+                478
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 479,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_90.mp4": {
+        "scenes": [
+            [
+                0,
+                368
+            ],
+            [
+                368,
+                371
+            ],
+            [
+                371,
+                538
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 539,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_91.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_92.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_93.mp4": {
+        "scenes": [
+            [
+                0,
+                39
+            ],
+            [
+                39,
+                586
+            ],
+            [
+                586,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_94.mp4": {
+        "scenes": [
+            [
+                0,
+                388
+            ],
+            [
+                388,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_95.mp4": {
+        "scenes": [
+            [
+                0,
+                118
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 119,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_96.mp4": {
+        "scenes": [
+            [
+                0,
+                138
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 139,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_97.mp4": {
+        "scenes": [
+            [
+                0,
+                97
+            ],
+            [
+                97,
+                159
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 160,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_98.mp4": {
+        "scenes": [
+            [
+                0,
+                58
+            ],
+            [
+                58,
+                139
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 140,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_99.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_100.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_101.mp4": {
+        "scenes": [
+            [
+                0,
+                624
+            ],
+            [
+                624,
+                678
+            ],
+            [
+                678,
+                681
+            ],
+            [
+                681,
+                702
+            ],
+            [
+                702,
+                705
+            ],
+            [
+                705,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_102.mp4": {
+        "scenes": [
+            [
+                0,
+                45
+            ],
+            [
+                45,
+                506
+            ],
+            [
+                506,
+                898
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 899,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_103.mp4": {
+        "scenes": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                277
+            ],
+            [
+                277,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_104.mp4": {
+        "scenes": [
+            [
+                0,
+                442
+            ],
+            [
+                442,
+                445
+            ],
+            [
+                445,
+                747
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 748,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_105.mp4": {
+        "scenes": [
+            [
+                0,
+                249
+            ],
+            [
+                249,
+                252
+            ],
+            [
+                252,
+                502
+            ],
+            [
+                502,
+                832
+            ],
+            [
+                832,
+                838
+            ],
+            [
+                838,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_106.mp4": {
+        "scenes": [
+            [
+                0,
+                30
+            ],
+            [
+                30,
+                33
+            ],
+            [
+                33,
+                340
+            ],
+            [
+                340,
+                343
+            ],
+            [
+                343,
+                467
+            ],
+            [
+                467,
+                542
+            ],
+            [
+                542,
+                748
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 749,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_107.mp4": {
+        "scenes": [
+            [
+                0,
+                300
+            ],
+            [
+                300,
+                303
+            ],
+            [
+                303,
+                655
+            ],
+            [
+                655,
+                778
+            ],
+            [
+                778,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_108.mp4": {
+        "scenes": [
+            [
+                0,
+                24
+            ],
+            [
+                24,
+                42
+            ],
+            [
+                42,
+                48
+            ],
+            [
+                48,
+                655
+            ],
+            [
+                655,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_109.mp4": {
+        "scenes": [
+            [
+                0,
+                750
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 751,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_110.mp4": {
+        "scenes": [
+            [
+                0,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_111.mp4": {
+        "scenes": [
+            [
+                0,
+                575
+            ],
+            [
+                575,
+                600
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 601,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_112.mp4": {
+        "scenes": [
+            [
+                0,
+                249
+            ],
+            [
+                249,
+                252
+            ],
+            [
+                252,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_113.mp4": {
+        "scenes": [
+            [
+                0,
+                913
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 914,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_114.mp4": {
+        "scenes": [
+            [
+                0,
+                979
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 980,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_115.mp4": {
+        "scenes": [
+            [
+                0,
+                36
+            ],
+            [
+                36,
+                159
+            ],
+            [
+                159,
+                658
+            ],
+            [
+                658,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_116.mp4": {
+        "scenes": [
+            [
+                0,
+                637
+            ],
+            [
+                637,
+                640
+            ],
+            [
+                640,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_117.mp4": {
+        "scenes": [
+            [
+                0,
+                454
+            ],
+            [
+                454,
+                899
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 900,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_118.mp4": {
+        "scenes": [
+            [
+                0,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_119.mp4": {
+        "scenes": [
+            [
+                0,
+                747
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 748,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    },
+    "MSAD_normal_testing_120.mp4": {
+        "scenes": [
+            [
+                0,
+                141
+            ],
+            [
+                141,
+                749
+            ]
+        ],
+        "fps": 30.0,
+        "frames": 750,
+        "threshold": "kmeans",
+        "min_length": 1,
+        "gamma": 0.3
+    }
+}

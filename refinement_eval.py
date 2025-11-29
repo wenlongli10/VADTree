@@ -18,8 +18,8 @@ def parse_args():
         help="Root directory containing the video files. You can set it to None if not visualize or auto set according to dataset."
     )
     parser.add_argument("--similarity_pkl", type=bool,
-        # default=True,
-        default=False,
+        default=True,
+        # default=False,
         help='Whether to execute intra-cluster node refinement. If True, the similarity data will automatically set '
              'according to scores_json path.'
     )
