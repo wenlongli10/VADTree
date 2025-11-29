@@ -42,8 +42,8 @@ Only step 1,3,5 requires video data to run.
 You can download the video data from the following official websites:   
  UCF-Crime: [link](https://www.crcv.ucf.edu/projects/real-world/) &emsp;
  XD-Violence: [link](https://roc-ng.github.io/XD-Violence/) &emsp;
- MSAD: [link](https://msad-dataset.github.io/) 
-The test video folder structure should be as follows:  
+ MSAD: [link](https://msad-dataset.github.io/)   
+The test video folder structure should be as follows:
 ```
 UCF_CRIME_TEST_VIDEO_DIR (290 videos)
 ├── Abuse028_x264.mp4
