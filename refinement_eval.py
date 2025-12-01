@@ -172,6 +172,11 @@ def main(
             with open(args.split_pred) as f:
                 all_video_split_pred = json.load(f)
 
+    if 'MSAD' in args.scores_json: # load video info for fps
+            with open(f'{args.vadtree_path}/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4'
+                      '/dfs_coarse_sences.json') as f:
+                msad_video_info = json.load(f)
+
     for k, video in enumerate(video_list):
         # if 'Bad.Boys.1995__#01-11-55_01-12-40_label_G-B2-B6' not in video.path:
         #     continue
@@ -250,7 +255,8 @@ def main(
                 '0_mean':neg_mean}
             print(str(k).zfill(4), video_name, f' {vid_metric[video_name]} ')
 
-
+        if args.video_fps=='auto':
+            video_fps = msad_video_info[video_name+'.mp4']['fps']
         if visualize:
             vis_dir = os.path.join(output_dir, 'vis_dir')
             os.makedirs(vis_dir, exist_ok=True)
@@ -258,20 +264,20 @@ def main(
             # visualize_video
             visualize_video(
                 video_name,
-                video_labels if not without_labels else [],
+                video_labels if not args.without_labels else [],
                 video_scores,
                 video_captions,
-                video.path,
-                video_fps,
+                args.video_root,
+                video_fps if args.video_fps == 'auto' else args.video_fps,
                 Path(vis_dir) / f"{video_name}.mp4",
-                normal_label,
+                args.normal_label,
                 "{:06d}.jpg",
                 save_video=False,
-                video_metric = f'roc_auc:{round(roc_auc,4)}, pr_auc:{round(pr_auc,4)},1_mean:{pos_mean},  '
-                               f'0_mean:{neg_mean}',
+                # video_metric = f'roc_auc:{round(roc_auc,4)}, pr_auc:{round(pr_auc,4)},1_mean:{pos_mean},  '
+                #                f'0_mean:{neg_mean}',
                 scenes=scenes,
                 # scenes=None,
-                split_pred=all_video_split_pred[video_name + '.mp4'] if args.split_pred is not None else None,
+                # split_pred=all_video_split_pred[video_name + '.mp4'] if args.split_pred is not None else None,
                 # split_pred=None,
             )
 

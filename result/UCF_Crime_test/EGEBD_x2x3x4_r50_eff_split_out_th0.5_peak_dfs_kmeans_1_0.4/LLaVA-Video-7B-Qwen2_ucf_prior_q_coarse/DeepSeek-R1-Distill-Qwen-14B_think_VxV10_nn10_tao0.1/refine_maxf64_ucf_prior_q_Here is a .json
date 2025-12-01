@@ -11848,36 +11848,32 @@
         }
     },
     "args_dict": {
+        "scores_json": "result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think/maxf64_ucf_prior_q_Here is a .json",
         "video_root": "/root/autodl-fs/lwl/data/UCF_Crime_test/test_videos",
-        "scores_json": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think/maxf64_ucf_prior_q_Here is a .json",
-        "similarity_pkl": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/sim_maxf64_ucf_prior_q_Here is a .pkl",
+        "similarity_pkl": "result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/sim_maxf64_ucf_prior_q_Here is a .pkl",
         "similarity_type": "VxV",
-        "frame_interval": 16,
-        "normal_label": 7,
         "topK": 10,
         "num_neighbors": 10,
         "dyn_ratio": null,
         "tao": 0.1,
-        "LenAlign": 0,
-        "boost": 0,
         "without_labels": false,
         "visualize": false,
+        "normal_label": 7,
         "video_fps": 30.0,
-        "annotationfile_path": "/root/autodl-tmp/data/LAVAD_data/ucf_crime/annotations/anomaly_test.txt",
-        "temporal_annotation_file": "/root/autodl-tmp/data/LAVAD_data/ucf_crime/annotations/Temporal_Anomaly_Annotation_for_Testing_Videos.txt",
-        "blip2_feat_path": "/root/autodl-tmp/data/UCF_Crime_test/test_videos_blip2_feat",
-        "output_dir": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1",
-        "split_pred": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/pred.json",
-        "refine_score_output_json": "/root/autodl-tmp/data/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1/refine_maxf64_ucf_prior_q_Here is a .json"
+        "annotationfile_path": "/root/autodl-tmp/VADTree/dataset_info/ucf_crime/annotations/anomaly_test.txt",
+        "temporal_annotation_file": "/root/autodl-tmp/VADTree/dataset_info/ucf_crime/annotations/Temporal_Anomaly_Annotation_for_Testing_Videos.txt",
+        "output_dir": "result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1",
+        "split_pred": "result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/pred.json",
+        "refine_score_output_json": "result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/DeepSeek-R1-Distill-Qwen-14B_think_VxV10_nn10_tao0.1/refine_maxf64_ucf_prior_q_Here is a .json"
     },
     "dataset_metric": {
         "all": {
             "pr_auc": 0.3247,
-            "roc_auc": 0.8281
+            "roc_auc": 0.8276
         },
         "Abnormal": {
-            "pr_auc": 0.3638,
-            "roc_auc": 0.6999
+            "pr_auc": 0.3639,
+            "roc_auc": 0.6998
         },
         "Normal": {
             "pr_auc": 0.5,
@@ -11888,8 +11884,8 @@
             "roc_auc": 0.5605
         },
         "Arrest": {
-            "pr_auc": 0.4551,
-            "roc_auc": 0.733
+            "pr_auc": 0.4566,
+            "roc_auc": 0.7348
         },
         "Arson": {
             "pr_auc": 0.3952,
@@ -11900,8 +11896,8 @@
             "roc_auc": 0.8393
         },
         "Burglary": {
-            "pr_auc": 0.3327,
-            "roc_auc": 0.5267
+            "pr_auc": 0.3324,
+            "roc_auc": 0.5258
         },
         "Explosion": {
             "pr_auc": 0.3075,
@@ -11921,15 +11917,15 @@
         },
         "Shooting": {
             "pr_auc": 0.2331,
-            "roc_auc": 0.7344
+            "roc_auc": 0.7346
         },
         "Shoplifting": {
-            "pr_auc": 0.2719,
-            "roc_auc": 0.6108
+            "pr_auc": 0.271,
+            "roc_auc": 0.6048
         },
         "Stealing": {
-            "pr_auc": 0.6743,
-            "roc_auc": 0.7309
+            "pr_auc": 0.6742,
+            "roc_auc": 0.7308
         },
         "Vandalism": {
             "pr_auc": 0.1502,

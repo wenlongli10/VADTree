@@ -32,9 +32,9 @@ state-of-the-art performance in training-free settings while drastically reducin
 the number of sampled video segments. 
 
 # Progress
-- [ ]  More experiment results will be added soon.
-- [x] Code and experiment results release (`2025-11-27`)
-- [x] Paper accepted at NeurIPS 2025 (`2025-09-19`)
+- [x] `2025-11-30` Experimental results released. 
+- [x] `2025-11-27` All code released. 
+- [x] `2025-09-19` Paper accepted at NeurIPS 2025. 
 
 # Datasets preparation
 The groundtruth for The UCF-Crime, XD-Violence (from [LAVAD](https://github.com/lucazanella/lavad)) and MSAD datasets is already included in the **dataset_info** folder and no additional download is required.  

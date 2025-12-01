@@ -16,6 +16,9 @@ XD_classes = [ 'Normal', 'Fighting', 'Shooting', 'Riot', 'Abuse','Car Accident',
     'Explosion']
 XD_classes_id = ['A', 'B1', 'B2', 'B4', 'B5', 'B6', 'G', ]
 
+MSAD_classes = ['Normal', 'Assault', 'Explosion', 'Fighting', 'Fire', 'Object Falling', 'People Falling', 'Robbery',
+    'Shooting', 'Traffic Accident', 'Vandalism', 'Water Incident']
+
 def update_flat_scores_labels(flat_scores, flat_labels, video_scores, video_labels, without_labels, scores_json, video_name):
     class_text = get_video_category(scores_json, video_name)
     flat_scores['all'].extend(video_scores)
@@ -31,7 +34,7 @@ def update_flat_scores_labels(flat_scores, flat_labels, video_scores, video_labe
             flat_labels['Abnormal'].extend(video_labels)
     return flat_scores, flat_labels
 
-def compute_metrics(flat_scores, flat_labels, normal_label):
+def compute_metrics(flat_scores, flat_labels, normal_label, only_abnormal=False):
     """
     计算各类别的性能指标
 
@@ -46,6 +49,10 @@ def compute_metrics(flat_scores, flat_labels, normal_label):
     dataset_metric = {}
 
     # 计算指标
+    if 'Normal' in flat_scores and only_abnormal:
+        assert len(flat_labels['Normal']) == 0 # 说明本次测评没有正常类别，做此验证
+        del flat_scores['Normal']
+
     for class_name in flat_scores:
         scores_class = np.array(flat_scores[class_name])
         labels_class = np.array(flat_labels[class_name])
@@ -59,6 +66,10 @@ def compute_metrics(flat_scores, flat_labels, normal_label):
         # 计算PR AUC
         precision, recall, _ = precision_recall_curve(binary_labels, scores_class)
         pr_auc = round(auc(recall, precision), 4)
+
+        # 计算正负样本的平均分数
+        pos_mean = round(scores_class[binary_labels].mean(), 4)
+        neg_mean = round(scores_class[~binary_labels].mean(), 4)
 
         print(f"Class: {class_name}, 1frames: {binary_labels.sum()}, 0frames: {(~binary_labels).sum()} ROC AUC:"
               f" {roc_auc}, PR AUC: {pr_auc}, ")
@@ -130,7 +141,7 @@ def calculate_refine_scores(scores_dict, similarity_dict, similarity_type, topK,
         scores_refine_list = []
         for weight, i in similarity_type: # 得到每种refine类型的结果，并进行加权
             values_list = list(calculate_refine_type_scores(scores_dict, similarity_dict, i,
-                                                            topK,nn, dyn_ratio, tau).values(), args)
+                topK,nn, dyn_ratio, tau, args).values())
             scores_refine_list.append([weight*j for j in  values_list])
         scores_refine_dict = {}
         for i, (k,v) in enumerate(scores_dict.items()):
@@ -161,6 +172,7 @@ def calculate_refine_type_scores(scores_dict, similarity_dict, similarity_type, 
         max_idx = nn_M_sims.argsort()[::-1][:topK] # nn邻域内的相似性分数排序
         max_sum_scores = nn_sum_scores[max_idx]  # nn邻域内片段的原始异常打分取topK
         max_M_sims = nn_M_sims[max_idx]
+
         max_M_sims_stable = max_M_sims - np.max(max_M_sims)  # 增加稳定性处理
         weights = np.exp(max_M_sims_stable / tau) / np.sum(np.exp(max_M_sims_stable / tau))
         # weights = np.exp(max_M_sims/tau) / max(0.01, np.sum(np.exp(max_M_sims/tau)))
@@ -177,6 +189,17 @@ def dur_refine(start, end, dur):
         return start, end - int((end-start)/2)
     else:
         raise NotImplementedError
+
+def calculate_boost_scores(video_scores_dict, video_scores, ):
+    video_scores = np.array(video_scores)
+    for k,v in video_scores_dict.items():
+        start, end = map(lambda x: int(float(x)), k.split(', '))
+        if video_scores[start:end].mean()-v[0] > 0.15 and v[0]>0.5:
+            clip_len = end-start
+            video_scores[int(start+clip_len/4):int(end-clip_len/4)] = 1.
+            print('boosting')
+    # print('fdsf')
+    return video_scores.tolist()
 
 def get_flat_scores(scores_json, video_list):
     with open(scores_json) as f:
@@ -248,7 +271,6 @@ def args_to_dict(args, exclude_keys=None, max_depth=3):
 
     # 递归转换值
     return convert_value(filtered, current_depth=0)
-
 def initialize_score_dicts(scores_json):
     """
     初始化评分字典和标签字典
@@ -274,6 +296,9 @@ def initialize_score_dicts(scores_json):
     elif 'XD' in scores_json.upper():
         dataset_classes = XD_classes
         # 可以在此处添加XD的特殊处理逻辑
+    elif 'MSAD' in scores_json.upper():
+        dataset_classes = MSAD_classes
+        # 可以在此处添加MSAD的特殊处理逻辑
     else:
         raise ValueError("Invalid scores_json identifier. Must contain 'UCF' or 'XD'")
     # 动态扩展字典
@@ -308,6 +333,8 @@ def get_video_category(scores_json, video_name):
     print(get_video_category('XD', 'Bad.Boys.II.2003__#00-06-42_00-10-00_label_B2-G-0')) # 输出: Shooting,Explosion
     print(get_video_category('XD', 'Bad.Boys.II.2003__#01-11-16_01-14-00_label_A'))    # 输出: Normal
     """
+
+
 
     # 创建XD ID到类别的映射字典
     XD_id_mapping = dict(zip(XD_classes_id, XD_classes))
@@ -350,7 +377,18 @@ def get_video_category(scores_json, video_name):
                     seen.add(XD_id_mapping[vid])
 
             return categories
-
+        elif 'MSAD' in scores_json.upper():
+            # MSAD数据集的处理逻辑
+            # 提取标签部分（格式：..._label_ID1-ID2-ID3）
+            # 'Object_falling_3' 提取出 'Object Falling'， ‘Fire_11’ 提取出 'Fire'
+            if 'normal' in video_name.lower():
+                return ['Normal']
+            segments = video_name.split('_')
+            label_parts = [seg for seg in segments if not seg.isdigit()]
+            categories = ' '.join(label_parts).replace('-', ' ').title()
+            if categories not in MSAD_classes:
+                raise ValueError(f"Category '{categories}' not found in MSAD classes.")
+            return [categories]
         else:
             raise ValueError("Invalid dataset type. Must be 'UCF' or 'XD'")
 

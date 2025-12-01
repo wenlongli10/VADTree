@@ -60,6 +60,7 @@ def parse_args():
 
     #  自动化配置参数补全
     vadtree_path = os.path.dirname(__file__)
+    args.vadtree_path = vadtree_path
     if 'UCF' in args.coarse_scores_json:
         assert 'UCF' in args.fine_scores_json
         args.normal_label = 7
@@ -143,7 +144,7 @@ def main(
             all_video_split_pred = json.load(f)
 
     if 'MSAD' in args.coarse_scores_json: # load video info for fps
-        with open(f'{vadtree_path}/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4'
+        with open(f'{args.vadtree_path}/MSAD_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4'
                   '/dfs_coarse_sences.json') as f:
             msad_video_info = json.load(f)
 
