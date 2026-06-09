@@ -7,6 +7,11 @@ from src.utils.eval_utils import *
 from src.utils.ensemble_utils import *
 
 def node_sort(coarse_scores_json, fine_scores_json):
+    """Return parent/child score files according to HGTree granularity.
+
+    A higher DFS threshold, or the same threshold with a larger minimum segment
+    length, represents the coarser parent node set.
+    """
     # 使用正则表达式精准定位
     match0 = re.search(r"_dfs_([0-9.]+)_(\d+)", coarse_scores_json)
     match1 = re.search(r"_dfs_([0-9.]+)_(\d+)", fine_scores_json)
@@ -182,6 +187,8 @@ def main(
             normalization='minmax',
             # 'softmax'
         )
+        # Start from an even coarse/fine blend. Later, high disagreement raises
+        # the fine-node contribution for the corresponding frame interval.
         # weight = [0.5, 0.5]
         weight_list = [0.5] * len(video_labels) #原始分数的权重。
         scenes = []
@@ -229,7 +236,9 @@ def main(
         ense_scores = get_video_flat_scores(ense_video_scores_dict) # 待集成的分数
 
         # 加权
-        # 兼容了MSAD数据集中标签长度与实际视频帧数量不匹配的情况
+        # 兼容了MSAD数据集中标签长度与实际视频帧数量不匹配的情况。
+        # Keep the same frame-level order because metric computation consumes
+        # these scores directly.
         w_video_scores = np.array(weight_list)* np.array(video_scores)
         w_ense_scores = (1-np.array(weight_list)[:len(ense_scores)])*np.array(ense_scores)
         w_video_scores[:len(w_ense_scores)] += w_ense_scores

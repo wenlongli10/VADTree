@@ -8,6 +8,11 @@ from sklearn_extra.cluster import KMedoids
 # pip install -i https://mirrors.aliyun.com/pypi/simple scikit-learn-extra
 # llava
 def remove_redundant(nodes):
+    """Split DFS nodes into visible nodes and nodes covered by another node.
+
+    Each item in ``nodes`` is ``([start, end], boundary_scores)``. A node is
+    redundant when a smaller node is fully contained in its temporal span.
+    """
     non_redundant = []
     redundant = []
     for i, node in enumerate(nodes):
@@ -28,6 +33,11 @@ def remove_redundant(nodes):
     return non_redundant, redundant
 
 def hierarchical(dfs_scenes_b_all, th, frames):
+    """Build coarse/fine node lists from DFS nodes using one confidence cutoff.
+
+    Nodes whose boundary confidence is consistently high become coarse nodes;
+    the rest are completed against the coarse partition to keep frame coverage.
+    """
     # 初始化 coarse 和 fine 列表
     coarse = []
     fine = []
@@ -50,7 +60,10 @@ def hierarchical(dfs_scenes_b_all, th, frames):
     return coarse_, fine_, redundant_c+redundant_f
 def kmeans_two_clusters(boundary_score):
     """
-    对boundary_score的value进行KMeans聚类（两类），返回两类的key列表和分割阈值
+    对 boundary_score 的 value 进行 KMeans 二分组。
+
+    返回值始终按置信度从低到高排列：fine keys/scores 在前，
+    coarse keys/scores 在后。这个顺序被主流程直接依赖。
 
     Args:
         boundary_score (dict): {key: score}
@@ -343,7 +356,9 @@ if __name__ == "__main__":
 
     # # 自动配置不同数据集的参数
     if args.temporal_annotation_file is None:
-        vadtree_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        # This file lives at the VADTree repo root, so __file__ already points
+        # to the directory that contains dataset_info.
+        vadtree_path = os.path.dirname(os.path.abspath(__file__))
         if 'UCF' in args.json_path:
             args.temporal_annotation_file=f'{vadtree_path}/dataset_info/ucf_crime/annotations/Temporal_Anomaly_Annotation_for_Testing_Videos.txt'
         elif 'XD' in args.json_path:
@@ -360,9 +375,11 @@ if __name__ == "__main__":
 
     # pprint(all_video_scores_dict['config'])
     # print(json.dumps(all_video_scenes_dict['config'], indent=4, ensure_ascii=False))
+    # Keep anomaly videos first and normal videos last. The order is used only
+    # for deterministic logging/output traversal, not for metric computation.
     sorted_keys = sorted(
         org_all_video_scenes_dict.keys(),
-        key=lambda x: ("ormal" in x or 'label_A' in x, x)  # 元组排序规则：(是否包含N/normal或label_A z正常类，排后面, 键本身)
+        key=lambda x: ("ormal" in x or 'label_A' in x, x)
     )
 
     all_video_scenes_dict = {k: org_all_video_scenes_dict[k] for k in sorted_keys}
@@ -427,6 +444,8 @@ if __name__ == "__main__":
             for i in fine:
                 legal_peak_idx.extend(i)
             legal_peak_idx = sorted(legal_peak_idx)[1:-1]
+            # Remove artificial root/end boundaries before clustering; only real
+            # candidate boundaries should decide the coarse/fine split.
             legal_peak_boundary_score = {k: peak_boundary_score[k] for k in legal_peak_idx}
 
             if len(set(legal_peak_boundary_score.values()))>=2:  # 保证可以聚类

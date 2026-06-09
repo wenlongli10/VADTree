@@ -5,8 +5,11 @@ from src.utils.vis_utils import visualize_video
 from src.utils.eval_utils import *
 
 def parse_args():
-    '''
-    '''
+    """Parse refinement options and derive dataset-specific paths.
+
+    The script intentionally infers annotation and similarity-cache paths from
+    ``scores_json`` so the command line stays short for the standard pipeline.
+    """
     parser = argparse.ArgumentParser()
 
     # Required arguments
@@ -90,6 +93,8 @@ def parse_args():
         args.split_pred = candidates[0]
 
     if args.similarity_pkl!=False:
+        # By convention the similarity cache sits next to the VLM captions, one
+        # level above the LLM score directory.
         if type(args.similarity_pkl) != str:  # 设定sim pkl路径
             args.similarity_pkl = os.path.join(os.path.dirname(os.path.dirname(args.scores_json)), 'sim_' + os.path.basename(
                 args.scores_json)[:-4]+'pkl')
@@ -196,9 +201,9 @@ def main(
         video_captions = None
 
         if args.similarity_pkl!=False:  # socore refine
-            vodeo_similarity_dict = similarity_dict['vid_sim'][video_name + '.mp4']
+            video_similarity_dict = similarity_dict['vid_sim'][video_name + '.mp4']
             video_scores_dict = calculate_refine_scores(
-                video_scores_dict, vodeo_similarity_dict, args.similarity_type, args.topK,
+                video_scores_dict, video_similarity_dict, args.similarity_type, args.topK,
                 args.num_neighbors, args.dyn_ratio,  args.tao, args
             )
             for m, n in video_scores_dict.items(): # 记录refine后分数
@@ -308,7 +313,8 @@ def main(
             json.dump(out_vid_metric, json_file, ensure_ascii=False, indent=4)
         print(f'\nsave path:{os.path.abspath(output_dir)}/00vid_metric.json')
 
-        # refine后得分存储
+        # Save refined node scores beside the metric file. Existing score order
+        # is preserved because downstream correlation expects the same keys.
         if args.similarity_pkl != False:
             # if not os.path.exists(args.refine_score_output_json):
             out_all_video_scores_dict['args_dict'] = args_dict

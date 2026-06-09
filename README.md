@@ -2,10 +2,11 @@
 
 # VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity-Aware Tree
 
-[Wenlong Li](), [Yifei Xu](), [Yuan Rao](), [Zhenhua Wang](), [Shuiguang Deng]() <br>
+[Wenlong Li](https://github.com/wenlongli10), [Yifei Xu](https://gr.xjtu.edu.cn/belonxu_1/), [Yuan Rao](https://gr.xjtu.edu.cn/raoyuan/zh_CN/zdylm/978189/list/index.htm), [Zhenhua Wang](), [Shuiguang Deng](https://person.zju.edu.cn/shuiguang/610617.html#0) <br>
 
 
 [![Paper](https://img.shields.io/badge/paper-arxiv.2510.22693-B31B1B.svg)](https://arxiv.org/abs/2510.22693)
+<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/116838"><img src="https://neurips.cc/static/core/img/NeurIPS-logo.svg" alt="NeurIPS 2025" height="20"></a>
 
 </div>
 
@@ -32,7 +33,7 @@ state-of-the-art performance in training-free settings while drastically reducin
 the number of sampled video segments. 
 
 # Progress
-- Future Plan: Clearer code structure and comments.
+- [x] Code structure and comments improved.
 - [x] `2025-11-30` Experimental results released. 
 - [x] `2025-11-27` Code released. 
 - [x] `2025-09-19` Paper accepted at NeurIPS 2025. 
@@ -143,11 +144,11 @@ cd ../DeepSeek-R1
 python deepseek_batch_infer.py  \
     --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
     --ckpt_dir /path/to/LLM_MODEL_DIR \
-    --input_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/maxf64_ucf_prior_q_Here is a .json \
+    --video_clip_summary_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_coarse/maxf64_ucf_prior_q_Here is a .json \
 python deepseek_batch_infer.py  \
     --video_root /path/to/UCF_CRIME_TEST_VIDEO_DIR \
     --ckpt_dir /path/to/LLM_MODEL_DIR \
-    --input_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_fine/maxf64_ucf_prior_q_Here is a .json \
+    --video_clip_summary_json ../result/UCF_Crime_test/EGEBD_x2x3x4_r50_eff_split_out_th0.5_peak_dfs_kmeans_1_0.4/LLaVA-Video-7B-Qwen2_ucf_prior_q_fine/maxf64_ucf_prior_q_Here is a .json \
 ```
 
 Coarse and Fine Output:
